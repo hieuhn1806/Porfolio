@@ -10,7 +10,7 @@ window.PORTFOLIO_EXPERIENCES = [
     url: 'https://www.solum-group.com/',
     tags: ['Enterprise SaaS', 'Retail & F&B', 'PDA Warehouse', 'HRM', 'Design System', 'Antigravity'],
     vi: {
-      period: '09/2025 — Hiện tại',
+      period: '03/2025 — Hiện tại',
       title: 'Product Designer · Tester Manual',
       urlLabel: 'Website công ty',
       summary: 'Thiết kế hệ sinh thái sản phẩm Enterprise trên hai lĩnh vực cốt lõi: **Retail** và **Food & Beverage (F&B)**.',
@@ -27,7 +27,7 @@ window.PORTFOLIO_EXPERIENCES = [
       ]
     },
     en: {
-      period: '09/2025 — Present',
+      period: '03/2025 — Present',
       title: 'Product Designer · Tester Manual',
       urlLabel: 'Company website',
       summary: 'Designed enterprise product ecosystems across two core domains: **Retail** and **Food & Beverage (F&B)**.',
@@ -50,7 +50,7 @@ window.PORTFOLIO_EXPERIENCES = [
     url: 'https://lovinbot.ai/en/',
     tags: ['AI Products', 'Founding Designer', '0 to 1', 'Figma', 'Design System'],
     vi: {
-      period: '11/2024 — 09/2025',
+      period: '11/2024 — 03/2025',
       title: 'Product Designer',
       urlLabel: 'Website công ty',
       summary: 'Lĩnh vực: **AI Products** — Đảm nhiệm vị trí Product Designer đầu tiên của công ty (UX/UI), xây dựng toàn bộ quy trình thiết kế, workflow và quy chuẩn thiết kế từ con số 0.',
@@ -65,7 +65,7 @@ window.PORTFOLIO_EXPERIENCES = [
       ]
     },
     en: {
-      period: '11/2024 — 09/2025',
+      period: '11/2024 — 03/2025',
       title: 'Product Designer',
       urlLabel: 'Company website',
       summary: 'Domain: **AI Products** — Served as the company\'s first Product Designer (UX/UI), establishing design processes, workflows, and standards from the ground up.',
