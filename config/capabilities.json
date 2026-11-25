@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "status_values": [
+    "not_configured",
+    "available",
+    "blocked"
+  ],
+  "capabilities": {
+    "terminal": {
+      "status": "not_configured",
+      "verified_at": null,
+      "evidence": null
+    },
+    "browser": {
+      "status": "not_configured",
+      "verified_at": null,
+      "evidence": null
+    },
+    "figma_read": {
+      "status": "not_configured",
+      "verified_at": null,
+      "evidence": null
+    },
+    "figma_write": {
+      "status": "not_configured",
+      "verified_at": null,
+      "evidence": null
+    },
+    "github": {
+      "status": "not_configured",
+      "verified_at": null,
+      "evidence": null
+    },
+    "local_database": {
+      "status": "not_configured",
+      "verified_at": null,
+      "evidence": null
+    },
+    "staging_database": {
+      "status": "not_configured",
+      "verified_at": null,
+      "evidence": null
+    },
+    "staging_deploy": {
+      "status": "not_configured",
+      "verified_at": null,
+      "evidence": null
+    },
+    "production_ci": {
+      "status": "not_configured",
+      "verified_at": null,
+      "evidence": null
+    },
+    "analytics": {
+      "status": "not_configured",
+      "verified_at": null,
+      "evidence": null
+    },
+    "error_monitoring": {
+      "status": "not_configured",
+      "verified_at": null,
+      "evidence": null
+    }
+  },
+  "notes": "Update only after a real capability check. No capability is preconnected by this pack."
+}

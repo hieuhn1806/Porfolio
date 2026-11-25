@@ -1,0 +1,36 @@
+/* Easy-to-use semantic aliases mapped to Untitled UI v6.0 source variables. */
+:root, [data-theme="light"] {
+  --ds-font: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ds-brand: var(--ui-colors-background-bg-brand-solid);
+  --ds-brand-hover: var(--ui-colors-background-bg-brand-solid-hover);
+  --ds-on-brand: var(--ui-colors-text-text-primary-on-brand);
+  --ds-bg: var(--ui-colors-background-bg-primary);
+  --ds-bg-subtle: var(--ui-colors-background-bg-secondary);
+  --ds-bg-hover: var(--ui-colors-background-bg-primary-hover);
+  --ds-text: var(--ui-colors-text-text-primary-900);
+  --ds-text-muted: var(--ui-colors-text-text-secondary-700);
+  --ds-border: var(--ui-colors-border-border-primary);
+  --ds-ring: var(--ui-colors-brand-500);
+  --ds-error: var(--ui-colors-background-bg-error-solid);
+  --ds-success: var(--ui-colors-background-bg-success-solid);
+  --ds-warning: var(--ui-colors-background-bg-warning-solid);
+  --ds-radius-xs: var(--ui-radius-xs);
+  --ds-radius-sm: var(--ui-radius-sm);
+  --ds-radius-md: var(--ui-radius-md);
+  --ds-radius-lg: var(--ui-radius-lg);
+  --ds-radius-xl: var(--ui-radius-xl);
+  --ds-radius-2xl: var(--ui-radius-2xl);
+  --ds-radius-full: var(--ui-radius-full);
+  --ds-text-xs: var(--ui-font-size-text-xs);
+  --ds-text-sm: var(--ui-font-size-text-sm);
+  --ds-text-md: var(--ui-font-size-text-md);
+  --ds-text-lg: var(--ui-font-size-text-lg);
+  --ds-text-xl: var(--ui-font-size-text-xl);
+  --ds-space-1: var(--ui-spacing-1-4px);
+  --ds-space-2: var(--ui-spacing-2-8px);
+  --ds-space-3: var(--ui-spacing-3-12px);
+  --ds-space-4: var(--ui-spacing-4-16px);
+  --ds-space-5: var(--ui-spacing-5-20px);
+  --ds-space-6: var(--ui-spacing-6-24px);
+  --ds-space-8: var(--ui-spacing-8-32px);
+}

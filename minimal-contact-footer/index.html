@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#fbfbfe" />
+  <meta name="description" content="Minimal portfolio contact footer for Hoàng Ngọc Hiếu, Product Designer." />
+  <title>Minimal Contact Footer — Hoàng Ngọc Hiếu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./footer.css" />
+</head>
+<body>
+  <!-- The footer below is the complete component. No background screenshot or external icon library. -->
+  <footer class="minimal-footer" id="contact" aria-labelledby="contact-heading">
+    <div class="minimal-footer__container">
+      <div class="minimal-footer__eyebrow">
+        <span class="minimal-footer__dot" aria-hidden="true"></span>
+        <span>06 / GET IN TOUCH</span>
+      </div>
+
+      <div class="minimal-footer__main">
+        <div class="minimal-footer__intro">
+          <h2 id="contact-heading">Let’s connect<span class="minimal-footer__accent">.</span></h2>
+          <p>Open to collaborations, thoughtful ideas, and meaningful digital products.</p>
+          <!-- Set CV_PDF_URL in footer.js after adding the owner's real CV PDF. -->
+          <a class="minimal-footer__cv" data-cv-download href="Hoang-Ngoc-Hieu-CV.pdf" download="Hoàng Ngọc Hiếu - Product designer.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download CV as PDF">
+            <svg class="minimal-footer__cv-file" viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 3.75H6.75A2.25 2.25 0 0 0 4.5 6v12A2.25 2.25 0 0 0 6.75 20.25h10.5A2.25 2.25 0 0 0 19.5 18V9.75L13.5 3.75Z"/><path d="M13.5 3.75v6h6"/></svg>
+            <span>Download CV</span>
+            <svg class="minimal-footer__cv-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v12m-4-4 4 4 4-4M5 20h14"/></svg>
+          </a>
+        </div>
+
+        <nav class="minimal-footer__contacts" aria-label="Contact and social profiles">
+          <div class="minimal-footer__contact">
+            <div class="minimal-footer__contact-label">
+              <img class="minimal-footer__contact-icon" src="img/icon-contact/behance.svg" alt="Behance" width="18" height="18" loading="lazy" />
+              <span>BEHANCE</span>
+            </div>
+            <a class="minimal-footer__contact-value" data-profile="behance" aria-label="Behance profile" href="https://www.behance.net/hieuhoang0618" target="_blank" rel="noopener noreferrer">
+              <span>View Behance</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </div>
+
+          <div class="minimal-footer__contact">
+            <div class="minimal-footer__contact-label">
+              <img class="minimal-footer__contact-icon" src="img/icon-contact/linkedin.svg" alt="LinkedIn" width="18" height="18" loading="lazy" />
+              <span>LINKEDIN</span>
+            </div>
+            <a class="minimal-footer__contact-value" data-profile="linkedin" aria-label="LinkedIn profile" href="https://www.linkedin.com/in/hi%E1%BA%BFu-ho%C3%A0ng-178b74279/" target="_blank" rel="noopener noreferrer">
+              <span>View LinkedIn</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </div>
+
+          <div class="minimal-footer__contact">
+            <div class="minimal-footer__contact-label">
+              <img class="minimal-footer__contact-icon" src="img/icon-contact/gmail.svg" alt="Email" width="18" height="18" loading="lazy" />
+              <span>EMAIL</span>
+            </div>
+            <!-- Email comes from the previously supplied personal portfolio reference. Update here if necessary. -->
+            <a class="minimal-footer__contact-value" href="mailto:hieuhn1806@gmail.com">
+              <span>hieuhn1806@gmail.com</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </div>
+
+          <div class="minimal-footer__contact">
+            <div class="minimal-footer__contact-label">
+              <img class="minimal-footer__contact-icon" src="img/icon-contact/phone.svg" alt="Phone" width="18" height="18" loading="lazy" />
+              <span>PHONE</span>
+            </div>
+            <a class="minimal-footer__contact-value" href="tel:+84378212997">
+              <span>0378 212 997</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>
+            </a>
+          </div>
+        </nav>
+      </div>
+
+
+    </div>
+  </footer>
+  <script src="./footer.js"></script>
+</body>
+</html>

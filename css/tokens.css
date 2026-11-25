@@ -1,0 +1,164 @@
+/**
+ * Design Tokens — Senior Product Designer Portfolio V5
+ * Light Glassmorphism × Modern Minimalism × Premium Editorial Design
+ */
+
+:root {
+  color-scheme: light;
+
+  /* Surface & Background — Warm Cream / Alabaster */
+  --bg: #F4F4EE;
+  --bg-secondary: #EFEFE8;
+  --paper: #F9F9F5;
+  --surface: #EFEFE8;
+  --surface2: #E6E6DE;
+  --surface-hover: #DFDFD6;
+
+  /* Glassmorphism Tokens */
+  --glass-surface: rgba(248, 248, 243, 0.78);
+  --glass-border: rgba(220, 220, 210, 0.85);
+  --glass-header: rgba(248, 248, 243, 0.88);
+  --glass-card: rgba(249, 249, 245, 0.84);
+  --glass-card-border: rgba(224, 224, 215, 0.9);
+  --glass-blur: 10px;
+  --shadow-glass: 0 16px 40px rgba(20, 24, 18, 0.05), 0 2px 6px rgba(20, 24, 18, 0.03);
+  --shadow-glass-hover: 0 20px 48px rgba(20, 24, 18, 0.09);
+
+  /* Floating Navbar Tokens */
+  --navbar-top: 20px;
+  --navbar-height: 80px;
+  --navbar-radius: 24px;
+  --navbar-max: 1440px;
+  --navbar-shadow: 0 16px 40px rgba(20, 24, 18, 0.05), 0 2px 6px rgba(20, 24, 18, 0.03);
+
+  /* Typography & Ink */
+  --ink: #111310;
+  --ink2: #3F433C;
+  --muted: #6D7168;
+  --line: #E2E2DA;
+  --line-strong: #D1D1C7;
+
+  /* Brand / Accent — Deep Forest Green (Light Mode) */
+  --purple: #1E3A15;
+  --purple-dark: #152B0E;
+  --purple-light: #E8EFE5;
+  --purple-mid: #CBDCC4;
+  --purple-focus: rgba(30, 58, 21, 0.22);
+  --on-purple: #FFFFFF;
+
+  /* Status Colors */
+  --green: #1E3A15;
+  --green-soft: #E8EFE5;
+  --amber: #B58535;
+  --amber-soft: #FFF5E5;
+  --red: #D92D20;
+  --red-soft: #FEE4E2;
+
+  /* Minimal Bright Footer */
+  --footer-bg: #EFEFE8;
+  --footer-text: #111310;
+  --footer-muted: #6D7168;
+  --footer-line: #E2E2DA;
+
+  /* Spacing Scale (8px rhythm) */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-30: 120px;
+
+  /* Layout Boundaries */
+  --gutter: clamp(20px, 4.5vw, 64px);
+  --max: 1240px;
+  --header-height: 80px;
+
+  /* Radii */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-xl: 14px;
+  --radius-2xl: 18px;
+  --radius: 18px;
+  --radius-3xl: 22px;
+  --radius-full: 9999px;
+
+  /* Elevation & Motion (Soft, subtle shadows) */
+  --shadow-xs: 0 1px 3px rgba(32, 38, 51, 0.04);
+  --shadow-sm: 0 4px 16px rgba(32, 38, 51, 0.03);
+  --shadow-md: 0 10px 30px rgba(32, 38, 51, 0.05);
+  --shadow: 0 16px 48px rgba(32, 38, 51, 0.06);
+  --shadow-dark: 0 24px 80px rgba(0, 0, 0, 0.35);
+  --ease: cubic-bezier(0.22, 0.8, 0.25, 1);
+  --duration-fast: 0.18s;
+  --duration-normal: 0.25s;
+
+  /* Untitled UI Semantic Aliases */
+  --ds-font: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ds-brand: var(--purple);
+  --ds-brand-hover: var(--purple-dark);
+  --ds-on-brand: #ffffff;
+  --ds-bg: var(--bg);
+  --ds-bg-subtle: var(--surface);
+  --ds-text: var(--ink);
+  --ds-text-muted: var(--muted);
+  --ds-border: var(--line);
+}
+
+/* Dark Theme Overrides — Carbon Black & Electric Lime */
+html[data-theme="dark"] {
+  color-scheme: dark;
+
+  --bg: #0B0C0E;
+  --bg-secondary: #101215;
+  --paper: #121417;
+  --surface: #171A1E;
+  --surface2: #1E2228;
+  --surface-hover: #252A32;
+
+  --glass-surface: rgba(18, 20, 23, 0.82);
+  --glass-border: rgba(255, 255, 255, 0.09);
+  --glass-header: rgba(18, 20, 23, 0.82);
+  --glass-card: rgba(18, 20, 23, 0.78);
+  --glass-card-border: rgba(255, 255, 255, 0.08);
+  --shadow-glass: 0 16px 40px rgba(0, 0, 0, 0.45), 0 2px 8px rgba(0, 0, 0, 0.25);
+  --shadow-glass-hover: 0 20px 48px rgba(0, 0, 0, 0.55);
+  --navbar-shadow: 0 16px 40px rgba(0, 0, 0, 0.45), 0 2px 8px rgba(0, 0, 0, 0.25);
+
+  --ink: #F3F4F1;
+  --ink2: #C5C8C1;
+  --muted: #8A8E86;
+  --line: #22252A;
+  --line-strong: #30353D;
+
+  --purple: #C4F042;
+  --purple-dark: #D2F65E;
+  --purple-light: rgba(196, 240, 66, 0.14);
+  --purple-mid: rgba(196, 240, 66, 0.28);
+  --purple-focus: rgba(196, 240, 66, 0.3);
+  --on-purple: #111506;
+
+  --green: #C4F042;
+  --green-soft: rgba(196, 240, 66, 0.14);
+  --amber: #E2B062;
+  --amber-soft: #332B1C;
+  --red: #F97066;
+  --red-soft: #382121;
+
+  --footer-bg: #0E1013;
+  --footer-text: #F3F4F1;
+  --footer-muted: #8A8E86;
+  --footer-line: #22252A;
+
+  --shadow: 0 20px 70px rgba(0, 0, 0, 0.35);
+  --shadow-sm: 0 4px 16px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 10px 30px rgba(0, 0, 0, 0.3);
+}

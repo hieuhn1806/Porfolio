@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 560" width="840" height="560" fill="none">
+  <defs>
+    <linearGradient id="ixdfBg" x1="0" y1="0" x2="840" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F9FAFB"/>
+    </linearGradient>
+    <linearGradient id="ixdfBlue" x1="0" y1="0" x2="840" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0066CC"/>
+      <stop offset="100%" stop-color="#003366"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Frame -->
+  <rect x="12" y="12" width="816" height="536" rx="16" fill="url(#ixdfBg)" stroke="#E5E7EB" stroke-width="2"/>
+  <rect x="26" y="26" width="788" height="508" rx="10" stroke="#0066CC" stroke-width="2.5" stroke-opacity="0.9"/>
+  <rect x="34" y="34" width="772" height="492" rx="6" stroke="#E5E7EB" stroke-width="1"/>
+
+  <!-- IxDF Header -->
+  <g transform="translate(68, 64)">
+    <circle cx="16" cy="16" r="16" fill="#0066CC"/>
+    <text x="16" y="22" font-family="Inter, sans-serif" font-size="16" font-weight="900" fill="#FFFFFF" text-anchor="middle">I</text>
+    <text x="44" y="22" font-family="Inter, -apple-system, sans-serif" font-size="18" font-weight="800" fill="#0F172A">Interaction Design Foundation</text>
+  </g>
+
+  <!-- Top Badge -->
+  <g transform="translate(630, 64)">
+    <rect width="142" height="32" rx="6" fill="#0066CC" fill-opacity="0.08"/>
+    <text x="71" y="21" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#0066CC" text-anchor="middle">TOP 10% COURSE TAKER</text>
+  </g>
+
+  <!-- Content -->
+  <text x="420" y="160" font-family="Inter, -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#6B7280" text-anchor="middle">COURSE CERTIFICATE</text>
+  <text x="420" y="196" font-family="Inter, -apple-system, sans-serif" font-size="15" fill="#4B5563" text-anchor="middle">This is to certify that</text>
+
+  <text x="420" y="250" font-family="Inter, -apple-system, sans-serif" font-size="34" font-weight="800" fill="#111827" text-anchor="middle">Hoàng Ngọc Hiếu</text>
+  <line x1="220" y1="268" x2="620" y2="268" stroke="#D1D5DB" stroke-width="1.5"/>
+
+  <text x="420" y="302" font-family="Inter, -apple-system, sans-serif" font-size="14" fill="#4B5563" text-anchor="middle">has successfully completed the online curriculum with distinction</text>
+  <text x="420" y="338" font-family="Inter, -apple-system, sans-serif" font-size="22" font-weight="750" fill="#0066CC" text-anchor="middle">Design Thinking: The Ultimate Guide</text>
+
+  <text x="420" y="375" font-family="Inter, -apple-system, sans-serif" font-size="12.5" fill="#6B7280" text-anchor="middle">
+    Empathy Research · Problem Definition · Ideation Workshops · Rapid Prototyping &amp; User Validation
+  </text>
+
+  <!-- Footer -->
+  <g transform="translate(68, 440)">
+    <line x1="0" y1="36" x2="180" y2="36" stroke="#9CA3AF" stroke-width="1"/>
+    <text x="0" y="28" font-family="'Brush Script MT', cursive, sans-serif" font-size="22" fill="#374151">Mads Soegaard</text>
+    <text x="0" y="52" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#4B5563">Mads Soegaard</text>
+    <text x="0" y="66" font-family="Inter, -apple-system, sans-serif" font-size="10" fill="#9CA3AF">Founder &amp; CEO, Interaction Design Foundation</text>
+
+    <!-- Center Seal -->
+    <g transform="translate(310, -20)">
+      <circle cx="42" cy="42" r="38" fill="#F0F7FF" stroke="#0066CC" stroke-width="2"/>
+      <path d="M42 24 L46 34 L57 35 L48 43 L51 54 L42 48 L33 54 L36 43 L27 35 L38 34 Z" fill="#0066CC"/>
+      <text x="42" y="70" font-family="Inter, -apple-system, sans-serif" font-size="7.5" font-weight="700" fill="#0F172A" text-anchor="middle">VERIFIED CERTIFICATE</text>
+    </g>
+
+    <g transform="translate(520, 20)">
+      <text x="180" y="16" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#374151" text-anchor="end">Certificate ID: IXDF-7729-105</text>
+      <text x="180" y="32" font-family="Inter, -apple-system, sans-serif" font-size="10.5" fill="#9CA3AF" text-anchor="end">Verify at: interaction-design.org/certificates</text>
+      <text x="180" y="48" font-family="Inter, -apple-system, sans-serif" font-size="10.5" fill="#9CA3AF" text-anchor="end">Issued: March 2024 · Grade: 96% (Top 10%)</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+{
+  "task_id": "floating-glass-navbar",
+  "created_at": "2026-10-14T01:57:55.000000+00:00",
+  "updated_at": "2026-10-14T02:11:45.000000+00:00",
+  "review_mode": "staging_auto",
+  "current_stage": "staging",
+  "stages": {
+    "setup": {
+      "status": "completed",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "requirements": {
+      "status": "completed",
+      "artifact_paths": [
+        "work/floating-glass-navbar/brief.md",
+        "work/floating-glass-navbar/requirements.md"
+      ],
+      "evidence_paths": []
+    },
+    "ux": {
+      "status": "completed",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "ui": {
+      "status": "completed",
+      "artifact_paths": [
+        "work/floating-glass-navbar/ui-spec.md"
+      ],
+      "evidence_paths": []
+    },
+    "database_api": {
+      "status": "not_applicable",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "implementation": {
+      "status": "completed",
+      "artifact_paths": [
+        "css/tokens.css",
+        "css/layout.css",
+        "css/components.css",
+        "css/responsive.css",
+        "index.html"
+      ],
+      "evidence_paths": []
+    },
+    "qa": {
+      "status": "completed",
+      "artifact_paths": [
+        "work/floating-glass-navbar/qa-report.md"
+      ],
+      "evidence_paths": [
+        "hero_floating_navbar_1791943640915.png",
+        "scrolled_floating_navbar_1791943650270.png",
+        "dark_mode_navbar_1791943667052.png",
+        "mobile_header_view_1791943728619.png",
+        "mobile_menu_opaque_verification_1791943853649.png",
+        "experience_card_expanded_1791945288440.png",
+        "work_experience_accordion_verified_1791945435960.png"
+      ]
+    },
+    "staging": {
+      "status": "completed",
+      "artifact_paths": [
+        "work/floating-glass-navbar/handoff.md"
+      ],
+      "evidence_paths": []
+    },
+    "production": {
+      "status": "not_started",
+      "artifact_paths": [],
+      "evidence_paths": []
+    }
+  },
+  "assumptions": [],
+  "blockers": [],
+  "approved_release": null,
+  "next_action": "Floating Glassmorphism Navbar ho\u00e0n th\u00e0nh v\u00e0 \u0111\u00e3 ki\u1ec3m th\u1eed tr\u00ean browser. S\u1eb5n s\u00e0ng commit v\u00e0 push l\u00ean GitHub/Vercel."
+}

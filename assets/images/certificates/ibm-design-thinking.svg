@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 560" width="840" height="560" fill="none">
+  <defs>
+    <linearGradient id="ibmBg" x1="0" y1="0" x2="840" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F4F4F6"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="12" y="12" width="816" height="536" rx="16" fill="url(#ibmBg)" stroke="#E0E0E0" stroke-width="2"/>
+  <rect x="26" y="26" width="788" height="508" rx="10" stroke="#0F62FE" stroke-width="2.5"/>
+  <rect x="34" y="34" width="772" height="492" rx="6" stroke="#E0E0E0" stroke-width="1"/>
+
+  <!-- IBM 8-bar Logo hint -->
+  <g transform="translate(68, 64)">
+    <text x="0" y="22" font-family="'Courier New', monospace, sans-serif" font-size="24" font-weight="900" letter-spacing="4" fill="#0F62FE">IBM</text>
+    <text x="76" y="22" font-family="Inter, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#161616">Enterprise Design Thinking</text>
+  </g>
+
+  <g transform="translate(640, 64)">
+    <rect width="132" height="32" rx="6" fill="#0F62FE" fill-opacity="0.1"/>
+    <text x="66" y="21" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#0F62FE" text-anchor="middle">PRACTITIONER</text>
+  </g>
+
+  <text x="420" y="160" font-family="Inter, -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#525252" text-anchor="middle">BADGE &amp; CERTIFICATION</text>
+  <text x="420" y="196" font-family="Inter, -apple-system, sans-serif" font-size="15" fill="#525252" text-anchor="middle">Awarded to</text>
+
+  <text x="420" y="250" font-family="Inter, -apple-system, sans-serif" font-size="34" font-weight="800" fill="#161616" text-anchor="middle">Hoàng Ngọc Hiếu</text>
+  <line x1="220" y1="268" x2="620" y2="268" stroke="#C6C6C6" stroke-width="1.5"/>
+
+  <text x="420" y="302" font-family="Inter, -apple-system, sans-serif" font-size="14" fill="#525252" text-anchor="middle">for demonstrating enterprise-scale design thinking methodology</text>
+  <text x="420" y="338" font-family="Inter, -apple-system, sans-serif" font-size="22" font-weight="750" fill="#0F62FE" text-anchor="middle">Enterprise Design Thinking Practitioner</text>
+
+  <text x="420" y="375" font-family="Inter, -apple-system, sans-serif" font-size="12.5" fill="#525252" text-anchor="middle">
+    The Loop (Observe, Reflect, Make) · User Hills · Playbacks · Sponsor Users · Agile Team Alignment
+  </text>
+
+  <g transform="translate(68, 440)">
+    <line x1="0" y1="36" x2="180" y2="36" stroke="#8D8D8D" stroke-width="1"/>
+    <text x="0" y="28" font-family="'Brush Script MT', cursive, sans-serif" font-size="22" fill="#262626">Karel Vredenburg</text>
+    <text x="0" y="52" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#525252">Karel Vredenburg</text>
+    <text x="0" y="66" font-family="Inter, -apple-system, sans-serif" font-size="10" fill="#8D8D8D">Global Head of Design Leadership, IBM</text>
+
+    <g transform="translate(310, -20)">
+      <circle cx="42" cy="42" r="38" fill="#EDF5FF" stroke="#0F62FE" stroke-width="2"/>
+      <path d="M42 22 L46 34 L58 35 L49 43 L52 55 L42 48 L32 55 L35 43 L26 35 L38 34 Z" fill="#0F62FE"/>
+      <text x="42" y="70" font-family="Inter, -apple-system, sans-serif" font-size="7.5" font-weight="700" fill="#161616" text-anchor="middle">IBM CREDLY VERIFIED</text>
+    </g>
+
+    <g transform="translate(520, 20)">
+      <text x="180" y="16" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#262626" text-anchor="end">Credly ID: IBM-EDT-92041</text>
+      <text x="180" y="32" font-family="Inter, -apple-system, sans-serif" font-size="10.5" fill="#8D8D8D" text-anchor="end">Verify at: credly.com/org/ibm/badge</text>
+      <text x="180" y="48" font-family="Inter, -apple-system, sans-serif" font-size="10.5" fill="#8D8D8D" text-anchor="end">Issued: January 2024 · Lifetime Credential</text>
+    </g>
+  </g>
+</svg>

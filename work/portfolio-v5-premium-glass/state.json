@@ -1,0 +1,70 @@
+{
+  "task_id": "portfolio-v5-premium-glass",
+  "created_at": "2026-10-14T01:31:02.291504+00:00",
+  "updated_at": "2026-10-26T13:05:00.000000+07:00",
+  "review_mode": "staging_auto",
+  "current_stage": "staging",
+  "stages": {
+    "setup": {
+      "status": "completed",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "requirements": {
+      "status": "completed",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "ux": {
+      "status": "completed",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "ui": {
+      "status": "completed",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "database_api": {
+      "status": "not_started",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "implementation": {
+      "status": "completed",
+      "artifact_paths": [
+        "js/data/projects.js",
+        "assets/images/portrait/avatar.png",
+        "img/hero-portrait.png",
+        "assets/cv/Hoang-Ngoc-Hieu-Product-Designer-CV.pdf",
+        "Hoàng Ngọc Hiếu - Product designer.pdf"
+      ],
+      "evidence_paths": [
+        "fnb_project_test_1792721500383.webp",
+        "fnb_figma_embeds_1792742705062.webp",
+        "download_cv_footer_hover_1792996629311.png",
+        "case_study_top_1792997324139.png",
+        "projects_spacing_32px_1792998229345.png"
+      ]
+    },
+    "qa": {
+      "status": "completed",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "staging": {
+      "status": "completed",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "production": {
+      "status": "not_started",
+      "artifact_paths": [],
+      "evidence_paths": []
+    }
+  },
+  "assumptions": [],
+  "blockers": [],
+  "approved_release": null,
+  "next_action": "Đã điều chỉnh khoảng cách giữa nút quay lại (.page-back) và tiêu đề trang (.page-title) xuống đúng 32px chuẩn mực."
+}

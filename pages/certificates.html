@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="vi" data-theme="light">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#FBFCFF" />
+  <meta name="color-scheme" content="light dark" />
+  <script>
+    (function () {
+      try {
+        var mode = localStorage.getItem('anh-portfolio-theme-mode') || 'auto';
+        var theme = localStorage.getItem('anh-portfolio-theme');
+        if (mode === 'auto' || !theme) {
+          var h = new Date().getHours();
+          theme = (h >= 6 && h < 18) ? 'light' : 'dark';
+        }
+        document.documentElement.dataset.theme = theme;
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.setAttribute('content', theme === 'dark' ? '#111318' : '#FBFCFF');
+      } catch (e) { }
+    })();
+  </script>
+  <meta name="description"
+    content="Chứng chỉ chuyên môn & Văn bằng — Hoàng Ngọc Hiếu | Product Designer specializing in Enterprise SaaS, Retail, POS, F&B." />
+  <title>Chứng chỉ — Hoàng Ngọc Hiếu | Product Designer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700;800;900&family=Newsreader:ital,opsz,wght@1,6..72,400;1,6..72,500;1,6..72,600&family=Playfair+Display:ital,wght@1,400;1,600&display=swap"
+    rel="stylesheet" />
+
+  <!-- Browser Favicon: Official HNH Brand Identity -->
+  <link rel="icon" type="image/svg+xml" href="../assets/branding/HNH_Final_Brand_Kit/HNH_Primary_Icon.svg" />
+  <link rel="icon" type="image/png" sizes="512x512" href="../assets/branding/HNH_Final_Brand_Kit/HNH_Favicon_512.png" />
+  <link rel="apple-touch-icon" href="../assets/branding/HNH_Final_Brand_Kit/HNH_Favicon_512.png" />
+
+  <link rel="stylesheet" href="../css/tokens.css" />
+  <link rel="stylesheet" href="../css/typography.css" />
+  <link rel="stylesheet" href="../css/layout.css" />
+  <link rel="stylesheet" href="../css/components.css" />
+  <link rel="stylesheet" href="../css/gallery.css" />
+  <link rel="stylesheet" href="../css/case-study.css" />
+  <link rel="stylesheet" href="../css/responsive.css" />
+</head>
+
+<body>
+  <a class="skip" href="#main" data-i18n="skip">Bỏ qua menu và đến nội dung</a>
+
+  <header class="site-header" id="top">
+    <div class="container head-inner">
+      <a class="brand" href="../index.html#/" aria-label="HNH — Hoàng Ngọc Hiếu">
+        <span class="brand-mark" aria-hidden="true">
+          <img class="brand-mark__img brand-mark__img--light"
+            src="../assets/branding/HNH_Final_Brand_Kit/HNH_Primary_Icon.svg" alt="HNH Brand Logo" width="36"
+            height="36" />
+          <img class="brand-mark__img brand-mark__img--dark"
+            src="../assets/branding/HNH_Final_Brand_Kit/HNH_Dark_Mode_Icon.svg" alt="HNH Brand Logo" width="36"
+            height="36" />
+        </span>
+        <span class="brand-text">
+          <strong id="brand-name">Hoàng Ngọc Hiếu</strong>
+          <small>PRODUCT DESIGNER</small>
+        </span>
+      </a>
+
+      <nav class="header-nav" aria-label="Điều hướng chính">
+        <a href="experience.html" data-i18n="navExperience">Kinh nghiệm</a>
+        <a href="projects.html" data-i18n="navProjects">Dự án</a>
+        <a href="expertise.html" data-i18n="navSkills">Chuyên môn</a>
+        <a href="../index.html#/tools" data-i18n="navTools">Công cụ</a>
+        <a href="certificates.html" data-i18n="navCertificates">Chứng chỉ</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Select language">
+          <button type="button" class="lang-option" data-lang="vi" aria-pressed="true">VI</button>
+          <span aria-hidden="true" class="lang-divider">/</span>
+          <button type="button" class="lang-option" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+
+        <button type="button" class="icon-button" id="theme-btn" aria-label="Chuyển giao diện sáng tối"
+          title="Chuyển giao diện sáng tối">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+            <path d="M12 3a9 9 0 1 0 9 9 7.5 7.5 0 0 1-9-9Z" />
+          </svg>
+        </button>
+
+        <a href="../index.html#/home/contact" class="btn btn-primary btn-small desktop-contact">
+          <span data-i18n="navContact">Liên hệ</span> <span class="arrow">↗</span>
+        </a>
+
+        <button class="icon-button mobile-toggle" id="mobile-toggle" type="button" aria-label="Mở menu"
+          aria-expanded="false" aria-controls="mobile-nav">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M4 7h16M4 12h16M4 17h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Điều hướng di động" hidden>
+      <a data-i18n="navExperience" href="experience.html">Kinh nghiệm</a>
+      <a data-i18n="navProjects" href="projects.html">Dự án</a>
+      <a data-i18n="navSkills" href="expertise.html">Chuyên môn</a>
+      <a data-i18n="navTools" href="../index.html#/tools">Công cụ</a>
+      <a data-i18n="navCertificates" href="certificates.html">Chứng chỉ</a>
+      <a data-i18n="navContact" href="../index.html#/home/contact">Liên hệ</a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <div id="app"></div>
+  </main>
+
+  <footer class="contact" id="site-contact">
+    <div class="container">
+      <div class="eyebrow"><span class="num">06 /</span> Contact & footer</div>
+      <h2 data-i18n-html="footerHeadline">Có vấn đề khó?<br><span>Cùng làm cho rõ ràng.</span></h2>
+      <div class="contact-lead">
+        <p data-i18n="footerLead">Tôi luôn hứng thú với những sản phẩm có bài toán phức tạp, những đội ngũ nghiêm túc
+          với trải nghiệm người dùng, và những cuộc trò chuyện tạo ra giá trị thật.</p>
+        <button type="button" class="btn btn-primary" data-contact-action>
+          <span data-i18n="footerCta">Gửi lời chào</span> <span class="arrow">↗</span>
+        </button>
+      </div>
+      <hr class="contact-rule" />
+      <div class="footer-row">
+        <span>© <span id="copyright-year">2026</span> <span id="footer-name">Anh</span>. Designed with clarity.</span>
+        <div class="footer-links">
+          <a data-i18n="navHome" href="../index.html#/">Trang chủ</a>
+          <a data-i18n="navProjects" href="projects.html">Dự án</a>
+          <a data-i18n="navExperience" href="experience.html">Kinh nghiệm</a>
+          <a data-i18n="navCertificates" href="certificates.html">Chứng chỉ</a>
+          <a href="../index.html#/home/contact" id="footer-email-link">Email ↗</a>
+          <a data-i18n="backTop" href="#top">Lên đầu ↑</a>
+        </div>
+      </div>
+      <div class="footer-note" id="demo-note" data-i18n="footerNotice">
+        Bản portfolio chính thức — được xây dựng theo chuẩn Design System với khả năng mở rộng cao.
+      </div>
+    </div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite" id="toast"></div>
+
+  <dialog class="gallery-dialog" id="gallery-dialog" aria-label="Image preview">
+    <button class="gallery-dialog-close" id="gallery-close" type="button" aria-label="Close image"
+      data-i18n-aria="closeImage">×</button>
+    <img alt="" />
+  </dialog>
+
+  <script src="../js/data/profile.js"></script>
+  <script src="../js/data/experiences.js"></script>
+  <script src="../js/data/projects.js"></script>
+  <script src="../js/data/skills.js"></script>
+  <script src="../js/data/soft-skills.js"></script>
+  <script src="../js/data/tools.js"></script>
+  <script src="../js/data/certificates.js"></script>
+  <script src="../js/data/i18n-strings.js"></script>
+
+  <script src="../js/modules/theme.js"></script>
+  <script src="../js/modules/i18n.js"></script>
+  <script src="../js/modules/navigation.js"></script>
+  <script src="../js/modules/filter.js"></script>
+  <script src="../js/modules/gallery.js"></script>
+  <script src="../js/modules/scroll-spy.js"></script>
+
+  <script src="../js/app.js"></script>
+</body>
+
+</html>

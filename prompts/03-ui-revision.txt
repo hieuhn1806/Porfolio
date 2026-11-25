@@ -1,0 +1,4 @@
+Sửa [màn hình] theo yêu cầu: [thay đổi cụ thể].
+Đọc playbooks/change-ui.md, giữ business behavior và hệ thống component.
+Cập nhật Figma nếu đó là source of truth và có quyền ghi; sửa code, responsive và states liên quan.
+Kiểm tra browser, gửi screenshot/preview mới và báo những phần chưa xác minh được.

@@ -1,0 +1,16 @@
+{
+  "name": "portfolio-product-designer",
+  "version": "1.0.0",
+  "description": "Personal portfolio — Senior Product Designer",
+  "scripts": {
+    "build": "echo 'Static build complete'",
+    "start": "npx browser-sync start --server --files \"**/*.html, **/*.css, **/*.js\" --port 3000 --no-notify",
+    "dev": "npx browser-sync start --server --files \"**/*.html, **/*.css, **/*.js\" --port 3000 --no-notify",
+    "serve": "npx serve . -p 3000 --no-clipboard",
+    "preview": "npx serve . -p 8080 --no-clipboard"
+  },
+  "keywords": ["portfolio", "product-design", "ux"],
+  "author": "Anh",
+  "license": "UNLICENSED",
+  "private": true
+}

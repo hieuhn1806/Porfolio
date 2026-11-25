@@ -1,0 +1,312 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-ui5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E121B"/>
+      <stop offset="100%" stop-color="#080A10"/>
+    </linearGradient>
+    <linearGradient id="card-grad5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161B26"/>
+      <stop offset="100%" stop-color="#111520"/>
+    </linearGradient>
+    <linearGradient id="accent-cyan5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#16C9F6"/>
+      <stop offset="100%" stop-color="#0D6FF0"/>
+    </linearGradient>
+    <linearGradient id="accent-purple5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C6AEE"/>
+      <stop offset="100%" stop-color="#5B45E0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="1000" fill="url(#bg-ui5)"/>
+
+  <!-- Left Sidebar (Admin Navigation) -->
+  <g transform="translate(0, 0)">
+    <rect width="260" height="1000" fill="#0B0E17" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    
+    <!-- Logo -->
+    <g transform="translate(24, 28)">
+      <circle cx="16" cy="16" r="14" fill="url(#accent-purple5)"/>
+      <text x="16" y="21" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13" font-weight="900" text-anchor="middle">S</text>
+      <text x="40" y="22" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="16" font-weight="800">SOLPOS</text>
+      <text x="110" y="22" fill="#16C9F6" font-family="monospace" font-size="11" font-weight="700">F&amp;B</text>
+    </g>
+
+    <!-- Nav Items -->
+    <g transform="translate(16, 90)">
+      <text x="12" y="0" fill="rgba(255,255,255,0.35)" font-family="-apple-system, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.5">QUẢN TRỊ F&amp;B</text>
+      
+      <!-- Product -->
+      <g transform="translate(0, 16)">
+        <text x="16" y="25" fill="rgba(255,255,255,0.6)" font-size="16">🍔</text>
+        <text x="44" y="25" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="13.5">Sản phẩm &amp; Món</text>
+      </g>
+
+      <!-- Modifier Groups -->
+      <g transform="translate(0, 64)">
+        <text x="16" y="25" fill="rgba(255,255,255,0.6)" font-size="16">⚡</text>
+        <text x="44" y="25" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="13.5">Nhóm tùy chọn (Mod)</text>
+      </g>
+
+      <!-- Menu Management -->
+      <g transform="translate(0, 112)">
+        <text x="16" y="25" fill="rgba(255,255,255,0.6)" font-size="16">📋</text>
+        <text x="44" y="25" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="13.5">Thực đơn theo giờ</text>
+      </g>
+
+      <!-- Room & Table -->
+      <g transform="translate(0, 160)">
+        <text x="16" y="25" fill="rgba(255,255,255,0.6)" font-size="16">🪑</text>
+        <text x="44" y="25" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="13.5">Khu vực &amp; Bàn</text>
+      </g>
+
+      <!-- Active: QR Order -->
+      <g transform="translate(0, 208)">
+        <rect width="228" height="40" rx="8" fill="rgba(22,201,246,0.18)" stroke="rgba(22,201,246,0.4)"/>
+        <text x="16" y="25" fill="#16C9F6" font-size="16">📱</text>
+        <text x="44" y="25" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13.5" font-weight="700">Quản lý QR Order</text>
+        <circle cx="210" cy="20" r="3" fill="#16C9F6"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Top Bar -->
+  <g transform="translate(260, 0)">
+    <rect width="1340" height="70" fill="#0E121B" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    <text x="32" y="40" fill="rgba(255,255,255,0.5)" font-family="-apple-system, sans-serif" font-size="13">Gọi món thông minh / </text>
+    <text x="195" y="40" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13.5" font-weight="700">Trung Tâm Quản Lý Mã QR Tại Bàn (Dine-In QR)</text>
+
+    <!-- Master Switch Live -->
+    <rect x="940" y="20" width="165" height="30" rx="15" fill="rgba(16,185,129,0.15)" stroke="#10B981"/>
+    <circle cx="956" cy="35" r="4" fill="#10B981"/>
+    <text x="968" y="39" fill="#10B981" font-size="11.5" font-weight="700">Đang nhận đơn QR</text>
+
+    <!-- Download Batch QR -->
+    <rect x="1120" y="18" width="190" height="34" rx="6" fill="url(#accent-cyan5)"/>
+    <text x="1136" y="40" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12.5" font-weight="700">Tải bộ mã in ấn (PDF) ↗</text>
+  </g>
+
+  <!-- Main Body -->
+  <g transform="translate(292, 94)">
+    <text x="0" y="28" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="24" font-weight="800">Quản lý Đặt Món Qua QR Tại Bàn (QR Order)</text>
+    <text x="0" y="52" fill="rgba(255,255,255,0.55)" font-family="-apple-system, sans-serif" font-size="13.5">Kết nối phần thiết lập bàn và thực đơn với cách khách hàng bắt đầu gọi món không chạm tại từng vị trí ngồi.</text>
+
+    <!-- 2 Column Layout: Settings & Menu Bridge (520px) | Standee Mockup & Live Status (740px) -->
+    <g transform="translate(0, 80)">
+      
+      <!-- LEFT: QR Settings & Menu Bridge -->
+      <g>
+        <rect width="510" height="710" rx="12" fill="url(#card-grad5)" stroke="rgba(255,255,255,0.1)"/>
+        
+        <rect width="510" height="42" rx="12" fill="rgba(255,255,255,0.03)"/>
+        <text x="20" y="26" fill="#16C9F6" font-family="monospace" font-size="11" font-weight="800">CẤU HÌNH LIÊN KẾT THỰC ĐƠN VỚI MÃ BÀN</text>
+
+        <g transform="translate(20, 56)">
+          <!-- Dynamic URL Routing -->
+          <text x="0" y="16" fill="rgba(255,255,255,0.7)" font-size="12" font-weight="600">Định dạng đường dẫn QR gọi món</text>
+          <rect x="0" y="26" width="470" height="40" rx="6" fill="rgba(0,0,0,0.4)" stroke="rgba(255,255,255,0.15)"/>
+          <text x="14" y="51" fill="#16C9F6" font-family="monospace" font-size="12.5">https://menu.solpos.vn/order?table=T1-04&amp;b=q1</text>
+
+          <!-- Linked Active Menu -->
+          <g transform="translate(0, 82)">
+            <text x="0" y="16" fill="rgba(255,255,255,0.7)" font-size="12" font-weight="600">Thực đơn áp dụng cho khách quét mã</text>
+            <rect x="0" y="26" width="470" height="42" rx="6" fill="rgba(245,158,11,0.08)" stroke="rgba(245,158,11,0.3)"/>
+            <text x="14" y="52" fill="#FFFFFF" font-size="13" font-weight="700">Tự động theo giờ (Auto Day-parting)</text>
+            <rect x="330" y="34" width="124" height="24" rx="4" fill="rgba(245,158,11,0.2)"/>
+            <text x="340" y="50" fill="#F59E0B" font-size="10.5" font-weight="700">Đang: Menu Trưa</text>
+          </g>
+
+          <!-- Guest Permissions Toggles -->
+          <g transform="translate(0, 165)">
+            <text x="0" y="16" fill="rgba(255,255,255,0.7)" font-size="12" font-weight="600">Quyền hạn &amp; Trải nghiệm khách tại bàn</text>
+
+            <!-- Toggle 1: Send to Kitchen -->
+            <g transform="translate(0, 26)">
+              <rect width="470" height="50" rx="6" fill="rgba(255,255,255,0.03)"/>
+              <circle cx="25" cy="25" r="9" fill="#10B981"/>
+              <text x="21" y="29" fill="#FFFFFF" font-size="11" font-weight="bold">✓</text>
+              <text x="45" y="23" fill="#FFFFFF" font-size="12.5" font-weight="600">Tự động bắn đơn xuống bếp / bar</text>
+              <text x="45" y="40" fill="rgba(255,255,255,0.45)" font-size="10.5">Khách xác nhận giỏ → In phiếu bếp tức thời</text>
+            </g>
+
+            <!-- Toggle 2: Call Waiter -->
+            <g transform="translate(0, 84)">
+              <rect width="470" height="50" rx="6" fill="rgba(255,255,255,0.03)"/>
+              <circle cx="25" cy="25" r="9" fill="#10B981"/>
+              <text x="21" y="29" fill="#FFFFFF" font-size="11" font-weight="bold">✓</text>
+              <text x="45" y="23" fill="#FFFFFF" font-size="12.5" font-weight="600">Nút "Gọi phục vụ" &amp; "Xin thêm nước đá"</text>
+              <text x="45" y="40" fill="rgba(255,255,255,0.45)" font-size="10.5">Báo rung đồng hồ hoặc tablet của nhân viên</text>
+            </g>
+
+            <!-- Toggle 3: Request E-invoice -->
+            <g transform="translate(0, 142)">
+              <rect width="470" height="50" rx="6" fill="rgba(255,255,255,0.03)"/>
+              <circle cx="25" cy="25" r="9" fill="#10B981"/>
+              <text x="21" y="29" fill="#FFFFFF" font-size="11" font-weight="bold">✓</text>
+              <text x="45" y="23" fill="#FFFFFF" font-size="12.5" font-weight="600">Điền thông tin xuất hóa đơn đỏ (VAT) tại bàn</text>
+              <text x="45" y="40" fill="rgba(255,255,255,0.45)" font-size="10.5">Khách tự nhập MST, công ty, email nhận hóa đơn</text>
+            </g>
+
+            <!-- Toggle 4: Prepay -->
+            <g transform="translate(0, 200)">
+              <rect width="470" height="50" rx="6" fill="rgba(255,255,255,0.02)"/>
+              <circle cx="25" cy="25" r="9" fill="rgba(255,255,255,0.15)"/>
+              <text x="45" y="23" fill="rgba(255,255,255,0.6)" font-size="12.5">Bắt buộc thanh toán trước qua VietQR/Momo</text>
+              <text x="45" y="40" fill="rgba(255,255,255,0.4)" font-size="10.5">Đang tắt: Khách dùng bữa xong mới thanh toán</text>
+            </g>
+          </g>
+
+          <!-- UX Highlight Card -->
+          <g transform="translate(0, 435)">
+            <rect width="470" height="135" rx="8" fill="rgba(124,106,238,0.1)" stroke="rgba(124,106,238,0.3)"/>
+            <text x="16" y="24" fill="#7C6AEE" font-size="12" font-weight="700">ĐIỂM NHẤN UX</text>
+            <text x="16" y="48" fill="rgba(255,255,255,0.8)" font-size="12">Kết nối chặt chẽ giữa 3 phần của hệ thống:</text>
+            <text x="16" y="72" fill="#FFFFFF" font-size="12" font-weight="600">Thiết lập Bàn (04)  →  Thực đơn Giờ (03)  →  QR Bán hàng (05)</text>
+            <text x="16" y="96" fill="rgba(255,255,255,0.65)" font-size="11.5">Giúp khách hàng tại chỗ tự trải nghiệm gọi món mượt mà, nhân viên quầy POS nhìn thấy giỏ hàng cập nhật theo thời gian thực.</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- RIGHT: Physical Standee Preview & Realtime Table QR Monitoring -->
+      <g transform="translate(535, 0)">
+        <rect width="740" height="710" rx="12" fill="url(#card-grad5)" stroke="rgba(255,255,255,0.1)"/>
+        
+        <rect width="740" height="42" rx="12" fill="rgba(255,255,255,0.03)"/>
+        <text x="20" y="26" fill="#FFFFFF" font-family="monospace" font-size="11" font-weight="800">THẺ MÃ QR ĐẶT BÀN &amp; THEO DÕI ĐƠN REAL-TIME</text>
+
+        <g transform="translate(20, 60)">
+          
+          <!-- Top Row: Physical Standee Mockup (Left 280px) + Live Mobile Flow (Right 400px) -->
+          <g>
+            <!-- Physical Acrylic Tent Standee -->
+            <rect width="270" height="300" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+            
+            <!-- Brand Badge on Standee -->
+            <rect x="0" y="0" width="270" height="46" rx="14" fill="#0F172A"/>
+            <text x="135" y="28" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13" font-weight="800" text-anchor="middle">SOLPOS SMART DINING</text>
+            
+            <!-- Table Number Pill -->
+            <g transform="translate(65, 58)">
+              <rect width="140" height="34" rx="17" fill="rgba(124,106,238,0.15)"/>
+              <text x="70" y="23" fill="#7C6AEE" font-family="monospace" font-size="16" font-weight="900" text-anchor="middle">BÀN T1-04</text>
+            </g>
+
+            <!-- Vector QR Code -->
+            <g transform="translate(60, 102)">
+              <rect width="150" height="150" fill="#0F172A" rx="8"/>
+              <!-- Inner Corners -->
+              <rect x="12" y="12" width="38" height="38" fill="#FFFFFF"/>
+              <rect x="20" y="20" width="22" height="22" fill="#0F172A"/>
+              
+              <rect x="100" y="12" width="38" height="38" fill="#FFFFFF"/>
+              <rect x="108" y="20" width="22" height="22" fill="#0F172A"/>
+
+              <rect x="12" y="100" width="38" height="38" fill="#FFFFFF"/>
+              <rect x="20" y="108" width="22" height="22" fill="#0F172A"/>
+
+              <!-- Decorative QR data bits -->
+              <rect x="58" y="20" width="12" height="12" fill="#FFFFFF"/>
+              <rect x="76" y="32" width="14" height="14" fill="#FFFFFF"/>
+              <rect x="58" y="112" width="14" height="14" fill="#FFFFFF"/>
+              <rect x="76" y="100" width="14" height="14" fill="#FFFFFF"/>
+
+              <circle cx="75" cy="75" r="14" fill="#7C6AEE"/>
+              <text x="75" y="80" fill="#FFFFFF" font-size="10" font-weight="bold" text-anchor="middle">QR</text>
+            </g>
+
+            <text x="135" y="278" fill="#475569" font-size="11" font-weight="600" text-anchor="middle">Mở camera điện thoại để đặt món</text>
+          </g>
+
+          <!-- Right side: Realtime Live Status of Orders placed via QR -->
+          <g transform="translate(290, 0)">
+            <rect width="410" height="300" rx="10" fill="rgba(0,0,0,0.3)" stroke="rgba(255,255,255,0.08)"/>
+            <text x="16" y="26" fill="#16C9F6" font-size="12" font-weight="800">TRẠNG THÁI GỌI MÓN QUA QR (LIVE FEED)</text>
+
+            <!-- Table 1 Feed -->
+            <g transform="translate(16, 44)">
+              <rect width="378" height="66" rx="6" fill="rgba(255,255,255,0.03)"/>
+              <rect x="12" y="12" width="46" height="22" rx="4" fill="rgba(124,106,238,0.2)"/>
+              <text x="18" y="27" fill="#7C6AEE" font-family="monospace" font-size="11" font-weight="800">T1-02</text>
+              <text x="68" y="26" fill="#FFFFFF" font-size="12.5" font-weight="600">Khách vừa xác nhận thêm 2 món</text>
+              <text x="68" y="44" fill="rgba(255,255,255,0.5)" font-size="11">1x Trà Đào Cam Sả, 1x Bánh Croissant · 11:24</text>
+              <text x="320" y="26" fill="#10B981" font-size="11" font-weight="700">Đã gửi bếp</text>
+            </g>
+
+            <!-- Table 2 Feed -->
+            <g transform="translate(16, 120)">
+              <rect width="378" height="66" rx="6" fill="rgba(255,255,255,0.03)"/>
+              <rect x="12" y="12" width="46" height="22" rx="4" fill="rgba(245,158,11,0.2)"/>
+              <text x="18" y="27" fill="#F59E0B" font-family="monospace" font-size="11" font-weight="800">T1-03</text>
+              <text x="68" y="26" fill="#FFFFFF" font-size="12.5" font-weight="600">Khách đang chọn tùy chọn mức đường</text>
+              <text x="68" y="44" fill="rgba(255,255,255,0.5)" font-size="11">Giỏ hàng tạm: 1x Trà Sữa Nướng (50% đường)</text>
+              <text x="316" y="26" fill="#F59E0B" font-size="11">Đang chọn...</text>
+            </g>
+
+            <!-- Table 3 Feed -->
+            <g transform="translate(16, 196)">
+              <rect width="378" height="66" rx="6" fill="rgba(255,255,255,0.03)"/>
+              <rect x="12" y="12" width="46" height="22" rx="4" fill="rgba(16,185,129,0.2)"/>
+              <text x="18" y="27" fill="#10B981" font-family="monospace" font-size="11" font-weight="800">T1-04</text>
+              <text x="68" y="26" fill="#FFFFFF" font-size="12.5" font-weight="600">Khách yêu cầu thanh toán &amp; Hóa đơn</text>
+              <text x="68" y="44" fill="rgba(255,255,255,0.5)" font-size="11">Tổng tiền: 235.000 đ · Yêu cầu xuất VAT</text>
+              <text x="310" y="26" fill="#16C9F6" font-size="11" font-weight="700">Chờ quầy POS</text>
+            </g>
+          </g>
+
+          <!-- Bottom Management Bar (Actions for Q1 Branch) -->
+          <g transform="translate(0, 320)">
+            <rect width="700" height="290" rx="10" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.08)"/>
+            <text x="20" y="32" fill="#FFFFFF" font-size="13" font-weight="700">BẢNG ĐIỀU KHIỂN NHẬN ĐƠN THEO TỪNG BÀN (CHI NHÁNH QUẬN 1)</text>
+
+            <!-- Mini Table list -->
+            <g transform="translate(20, 52)">
+              <rect width="660" height="30" rx="4" fill="rgba(255,255,255,0.03)"/>
+              <text x="14" y="20" fill="rgba(255,255,255,0.4)" font-size="10.5">MÃ BÀN</text>
+              <text x="110" y="20" fill="rgba(255,255,255,0.4)" font-size="10.5">TRẠNG THÁI QR</text>
+              <text x="250" y="20" fill="rgba(255,255,255,0.4)" font-size="10.5">LẦN QUÉT GẦN NHẤT</text>
+              <text x="420" y="20" fill="rgba(255,255,255,0.4)" font-size="10.5">TỔNG ĐƠN TẠI BÀN</text>
+              <text x="560" y="20" fill="rgba(255,255,255,0.4)" font-size="10.5">THAO TÁC</text>
+
+              <!-- Row 1 -->
+              <g transform="translate(0, 38)">
+                <text x="14" y="20" fill="#FFFFFF" font-family="monospace" font-size="12" font-weight="bold">T1-01</text>
+                <text x="110" y="20" fill="#10B981" font-size="11.5">● Đang mở</text>
+                <text x="250" y="20" fill="rgba(255,255,255,0.6)" font-size="11">10:45 (Hôm nay)</text>
+                <text x="420" y="20" fill="rgba(255,255,255,0.8)" font-size="11">0 đ (Trống)</text>
+                <text x="560" y="20" fill="#EF4444" font-size="11">Tạm khóa ⏸</text>
+              </g>
+
+              <!-- Row 2 -->
+              <g transform="translate(0, 78)">
+                <text x="14" y="20" fill="#FFFFFF" font-family="monospace" font-size="12" font-weight="bold">T1-02</text>
+                <text x="110" y="20" fill="#10B981" font-size="11.5">● Đang mở</text>
+                <text x="250" y="20" fill="rgba(255,255,255,0.6)" font-size="11">11:15 (Hôm nay)</text>
+                <text x="420" y="20" fill="#10B981" font-size="11.5" font-weight="bold">185.000 đ</text>
+                <text x="560" y="20" fill="#16C9F6" font-size="11">Xem đơn ↗</text>
+              </g>
+
+              <!-- Row 3 -->
+              <g transform="translate(0, 118)">
+                <text x="14" y="20" fill="#FFFFFF" font-family="monospace" font-size="12" font-weight="bold">T1-03</text>
+                <text x="110" y="20" fill="#10B981" font-size="11.5">● Đang mở</text>
+                <text x="250" y="20" fill="rgba(255,255,255,0.6)" font-size="11">11:22 (Hôm nay)</text>
+                <text x="420" y="20" fill="#F59E0B" font-size="11">Đang chọn món</text>
+                <text x="560" y="20" fill="#16C9F6" font-size="11">Xem đơn ↗</text>
+              </g>
+
+              <!-- Row 4 -->
+              <g transform="translate(0, 158)">
+                <text x="14" y="20" fill="#FFFFFF" font-family="monospace" font-size="12" font-weight="bold">T1-04</text>
+                <text x="110" y="20" fill="#10B981" font-size="11.5">● Đang mở</text>
+                <text x="250" y="20" fill="rgba(255,255,255,0.6)" font-size="11">11:05 (Hôm nay)</text>
+                <text x="420" y="20" fill="#10B981" font-size="11.5" font-weight="bold">235.000 đ</text>
+                <text x="560" y="20" fill="#7C6AEE" font-size="11">Thanh toán ↗</text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

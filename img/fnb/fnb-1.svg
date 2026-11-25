@@ -1,0 +1,307 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-ui1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E121B"/>
+      <stop offset="100%" stop-color="#080A10"/>
+    </linearGradient>
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161B26"/>
+      <stop offset="100%" stop-color="#111520"/>
+    </linearGradient>
+    <linearGradient id="accent-p" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C6AEE"/>
+      <stop offset="100%" stop-color="#5B45E0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="1000" fill="url(#bg-ui1)"/>
+
+  <!-- Left Sidebar (Admin Navigation) -->
+  <g transform="translate(0, 0)">
+    <rect width="260" height="1000" fill="#0B0E17" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    
+    <!-- App Logo -->
+    <g transform="translate(24, 28)">
+      <circle cx="16" cy="16" r="14" fill="url(#accent-p)"/>
+      <text x="16" y="21" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13" font-weight="900" text-anchor="middle">S</text>
+      <text x="40" y="22" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="16" font-weight="800">SOLPOS</text>
+      <text x="110" y="22" fill="#16C9F6" font-family="monospace" font-size="11" font-weight="700">F&amp;B</text>
+    </g>
+
+    <!-- Nav Items -->
+    <g transform="translate(16, 90)">
+      <text x="12" y="0" fill="rgba(255,255,255,0.35)" font-family="-apple-system, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.5">QUẢN TRỊ F&amp;B</text>
+      
+      <!-- Active Item: Sản phẩm -->
+      <g transform="translate(0, 16)">
+        <rect width="228" height="40" rx="8" fill="rgba(124,106,238,0.18)" stroke="rgba(124,106,238,0.4)"/>
+        <text x="16" y="25" fill="#7C6AEE" font-size="16">🍔</text>
+        <text x="44" y="25" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13.5" font-weight="700">Sản phẩm &amp; Món</text>
+        <circle cx="210" cy="20" r="3" fill="#16C9F6"/>
+      </g>
+
+      <!-- Modifier Groups -->
+      <g transform="translate(0, 64)">
+        <text x="16" y="25" fill="rgba(255,255,255,0.6)" font-size="16">⚡</text>
+        <text x="44" y="25" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="13.5">Nhóm tùy chọn (Mod)</text>
+      </g>
+
+      <!-- Menu Management -->
+      <g transform="translate(0, 112)">
+        <text x="16" y="25" fill="rgba(255,255,255,0.6)" font-size="16">📋</text>
+        <text x="44" y="25" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="13.5">Thực đơn theo giờ</text>
+      </g>
+
+      <!-- Room & Table -->
+      <g transform="translate(0, 160)">
+        <text x="16" y="25" fill="rgba(255,255,255,0.6)" font-size="16">🪑</text>
+        <text x="44" y="25" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="13.5">Khu vực &amp; Bàn</text>
+      </g>
+
+      <!-- QR Order -->
+      <g transform="translate(0, 208)">
+        <text x="16" y="25" fill="rgba(255,255,255,0.6)" font-size="16">📱</text>
+        <text x="44" y="25" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="13.5">Quản lý QR Order</text>
+      </g>
+
+      <text x="12" y="280" fill="rgba(255,255,255,0.35)" font-family="-apple-system, sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.5">VẬN HÀNH &amp; KHO</text>
+      <g transform="translate(0, 296)">
+        <text x="16" y="25" fill="rgba(255,255,255,0.6)" font-size="16">📦</text>
+        <text x="44" y="25" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="13.5">Nguyên liệu &amp; BOM</text>
+      </g>
+      <g transform="translate(0, 344)">
+        <text x="16" y="25" fill="rgba(255,255,255,0.6)" font-size="16">📊</text>
+        <text x="44" y="25" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="13.5">Báo cáo doanh thu</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Top Navigation Header -->
+  <g transform="translate(260, 0)">
+    <rect width="1340" height="70" fill="#0E121B" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+    
+    <!-- Breadcrumb -->
+    <text x="32" y="40" fill="rgba(255,255,255,0.5)" font-family="-apple-system, sans-serif" font-size="13">Sản phẩm / </text>
+    <text x="105" y="40" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13.5" font-weight="700">Trà Sữa Ô Long Nướng (SKU: TEA-OLN-01)</text>
+    
+    <!-- Actions right -->
+    <rect x="1060" y="18" width="110" height="34" rx="6" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.15)"/>
+    <text x="1090" y="40" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12.5" font-weight="600">Hủy bỏ</text>
+
+    <rect x="1185" y="18" width="125" height="34" rx="6" fill="url(#accent-p)"/>
+    <text x="1215" y="40" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12.5" font-weight="700">Lưu thay đổi</text>
+  </g>
+
+  <!-- Main Content Body: Product Form with 4 Ordered Step Cards -->
+  <g transform="translate(292, 94)">
+    
+    <!-- Page Title & Mode Chips -->
+    <g>
+      <text x="0" y="28" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="24" font-weight="800">Cấu hình chi tiết sản phẩm F&amp;B</text>
+      <text x="0" y="52" fill="rgba(255,255,255,0.55)" font-family="-apple-system, sans-serif" font-size="13.5">Quản lý món đơn, biến thể size, combo, nhóm tùy chọn modifier và trừ kho tự động theo nguyên liệu (BOM).</text>
+      
+      <!-- Type Switcher -->
+      <g transform="translate(900, 10)">
+        <rect width="370" height="36" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.1)"/>
+        <rect x="4" y="4" width="116" height="28" rx="6" fill="url(#accent-p)"/>
+        <text x="24" y="22" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="11.5" font-weight="700">Món có biến thể</text>
+        <text x="146" y="22" fill="rgba(255,255,255,0.6)" font-family="-apple-system, sans-serif" font-size="11.5">Món đơn</text>
+        <text x="264" y="22" fill="rgba(255,255,255,0.6)" font-family="-apple-system, sans-serif" font-size="11.5">Món Combo</text>
+      </g>
+    </g>
+
+    <!-- 2 Column Layout for Form Structure -->
+    <!-- Column 1 (Left 760px): Thông tin chung & Biến thể Size -->
+    <g transform="translate(0, 80)">
+      
+      <!-- SECTION 01: Thông tin cơ bản & Hiển thị bán hàng -->
+      <rect width="760" height="240" rx="12" fill="url(#card-grad)" stroke="rgba(255,255,255,0.1)"/>
+      <rect width="760" height="42" rx="12" fill="rgba(255,255,255,0.03)"/>
+      <text x="20" y="26" fill="#7C6AEE" font-family="monospace" font-size="11" font-weight="800">01 / THÔNG TIN CƠ BẢN &amp; HIỂN THỊ BÁN HÀNG</text>
+      
+      <g transform="translate(20, 60)">
+        <!-- Dish Name -->
+        <text x="0" y="14" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">Tên món trên POS / QR *</text>
+        <rect x="0" y="24" width="340" height="38" rx="6" fill="rgba(0,0,0,0.4)" stroke="rgba(255,255,255,0.15)"/>
+        <text x="14" y="48" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13">Trà Sữa Ô Long Nướng</text>
+
+        <!-- Category -->
+        <text x="360" y="14" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">Danh mục món *</text>
+        <rect x="360" y="24" width="360" height="38" rx="6" fill="rgba(0,0,0,0.4)" stroke="rgba(255,255,255,0.15)"/>
+        <text x="374" y="48" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13">Trà Sữa Pha Máy (Milk Tea)</text>
+        <text x="696" y="48" fill="rgba(255,255,255,0.4)" font-size="11">▼</text>
+
+        <!-- Code & Tax -->
+        <text x="0" y="90" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">Mã SKU Quản trị</text>
+        <rect x="0" y="100" width="220" height="38" rx="6" fill="rgba(0,0,0,0.4)" stroke="rgba(255,255,255,0.15)"/>
+        <text x="14" y="124" fill="#16C9F6" font-family="monospace" font-size="12.5" font-weight="700">TEA-OLN-01</text>
+
+        <text x="240" y="90" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">Thuế suất GTGT (VAT)</text>
+        <rect x="240" y="100" width="220" height="38" rx="6" fill="rgba(0,0,0,0.4)" stroke="rgba(255,255,255,0.15)"/>
+        <text x="254" y="124" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13">VAT 8% (Dịch vụ F&amp;B)</text>
+
+        <text x="480" y="90" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">Vị trí chế biến</text>
+        <rect x="480" y="100" width="240" height="38" rx="6" fill="rgba(0,0,0,0.4)" stroke="rgba(255,255,255,0.15)"/>
+        <text x="494" y="124" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13">Quầy Bar / Pha chế</text>
+      </g>
+
+      <!-- SECTION 02: Ma trận Biến thể & Giá bán -->
+      <g transform="translate(0, 260)">
+        <rect width="760" height="230" rx="12" fill="url(#card-grad)" stroke="rgba(255,255,255,0.1)"/>
+        <rect width="760" height="42" rx="12" fill="rgba(255,255,255,0.03)"/>
+        <text x="20" y="26" fill="#16C9F6" font-family="monospace" font-size="11" font-weight="800">02 / MA TRẬN BIẾN THỂ &amp; GIÁ BÁN (VARIANTS)</text>
+        <text x="630" y="26" fill="#7C6AEE" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">+ Thêm biến thể</text>
+
+        <!-- Variants Table -->
+        <g transform="translate(20, 56)">
+          <!-- TH -->
+          <rect width="720" height="30" rx="4" fill="rgba(255,255,255,0.03)"/>
+          <text x="12" y="20" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="10.5">BIẾN THỂ</text>
+          <text x="140" y="20" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="10.5">MÃ SKU PHỤ</text>
+          <text x="290" y="20" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="10.5">GIÁ VỐN</text>
+          <text x="420" y="20" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="10.5">GIÁ BÁN NIÊM YẾT</text>
+          <text x="580" y="20" fill="rgba(255,255,255,0.4)" font-family="monospace" font-size="10.5">TRẠNG THÁI</text>
+
+          <!-- Row 1: Size M -->
+          <g transform="translate(0, 38)">
+            <rect width="720" height="44" rx="4" fill="rgba(255,255,255,0.02)"/>
+            <text x="12" y="27" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Size M (500ml)</text>
+            <text x="140" y="27" fill="rgba(255,255,255,0.6)" font-family="monospace" font-size="12">TEA-OLN-M</text>
+            <text x="290" y="27" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="12.5">14.200 đ</text>
+            <text x="420" y="27" fill="#10B981" font-family="-apple-system, sans-serif" font-size="13.5" font-weight="800">45.000 đ</text>
+            <rect x="580" y="12" width="76" height="22" rx="4" fill="rgba(16,185,129,0.18)"/>
+            <text x="590" y="27" fill="#10B981" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">Đang bán</text>
+          </g>
+
+          <!-- Row 2: Size L -->
+          <g transform="translate(0, 88)">
+            <rect width="720" height="44" rx="4" fill="rgba(255,255,255,0.02)"/>
+            <text x="12" y="27" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Size L (700ml)</text>
+            <text x="140" y="27" fill="rgba(255,255,255,0.6)" font-family="monospace" font-size="12">TEA-OLN-L</text>
+            <text x="290" y="27" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="12.5">18.500 đ</text>
+            <text x="420" y="27" fill="#10B981" font-family="-apple-system, sans-serif" font-size="13.5" font-weight="800">55.000 đ</text>
+            <rect x="580" y="12" width="76" height="22" rx="4" fill="rgba(16,185,129,0.18)"/>
+            <text x="590" y="27" fill="#10B981" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">Đang bán</text>
+          </g>
+        </g>
+      </g>
+
+      <!-- SECTION 03: Tồn kho & Trừ kho theo Nguyên liệu (BOM) -->
+      <g transform="translate(0, 510)">
+        <rect width="760" height="270" rx="12" fill="url(#card-grad)" stroke="rgba(255,255,255,0.1)"/>
+        <rect width="760" height="42" rx="12" fill="rgba(255,255,255,0.03)"/>
+        <text x="20" y="26" fill="#10B981" font-family="monospace" font-size="11" font-weight="800">03 / QUẢN LÝ TỒN KHO THEO CÔNG THỨC (BOM RECIPE)</text>
+        <rect x="575" y="10" width="165" height="24" rx="6" fill="rgba(16,185,129,0.15)"/>
+        <text x="587" y="26" fill="#10B981" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">✓ Trừ kho nguyên liệu</text>
+
+        <!-- BOM ingredient tree -->
+        <g transform="translate(20, 56)">
+          <text x="0" y="16" fill="rgba(255,255,255,0.65)" font-family="-apple-system, sans-serif" font-size="12">Mỗi khi quầy POS bán 1 ly Size M, hệ thống sẽ tự động trừ kho:</text>
+          
+          <g transform="translate(0, 30)">
+            <rect width="720" height="34" rx="4" fill="rgba(255,255,255,0.02)"/>
+            <text x="12" y="22" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12.5">● Trà Ô Long khô (Hà Giang)</text>
+            <text x="340" y="22" fill="#16C9F6" font-family="monospace" font-size="12" font-weight="700">15 gram</text>
+            <text x="540" y="22" fill="rgba(255,255,255,0.4)" font-size="11">Kho sẵn có: 12.4 kg</text>
+          </g>
+
+          <g transform="translate(0, 70)">
+            <rect width="720" height="34" rx="4" fill="rgba(255,255,255,0.02)"/>
+            <text x="12" y="22" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12.5">● Sữa tươi tiệt trùng nguyên kem</text>
+            <text x="340" y="22" fill="#16C9F6" font-family="monospace" font-size="12" font-weight="700">120 ml</text>
+            <text x="540" y="22" fill="rgba(255,255,255,0.4)" font-size="11">Kho sẵn có: 48 hộp</text>
+          </g>
+
+          <g transform="translate(0, 110)">
+            <rect width="720" height="34" rx="4" fill="rgba(255,255,255,0.02)"/>
+            <text x="12" y="22" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="12.5">● Ly giấy 500ml + Nắp màng ép</text>
+            <text x="340" y="22" fill="#16C9F6" font-family="monospace" font-size="12" font-weight="700">1 cái</text>
+            <text x="540" y="22" fill="rgba(255,255,255,0.4)" font-size="11">Kho sẵn có: 1.250 cái</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- Column 2 (Right 490px): Nhóm Tùy Chọn Modifier & Preview Bán Hàng -->
+    <g transform="translate(780, 80)">
+      
+      <!-- SECTION 04: Nhóm tùy chọn gán cho món -->
+      <rect width="490" height="420" rx="12" fill="url(#card-grad)" stroke="rgba(255,255,255,0.1)"/>
+      <rect width="490" height="42" rx="12" fill="rgba(255,255,255,0.03)"/>
+      <text x="20" y="26" fill="#F59E0B" font-family="monospace" font-size="11" font-weight="800">04 / NHÓM TÙY CHỌN ÁP DỤNG (MODIFIERS)</text>
+      <text x="390" y="26" fill="#F59E0B" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">+ Gán nhóm</text>
+
+      <g transform="translate(20, 56)">
+        <text x="0" y="16" fill="rgba(255,255,255,0.6)" font-family="-apple-system, sans-serif" font-size="12">Các nhóm tùy chọn khách hàng sẽ chọn khi gọi món:</text>
+
+        <!-- Modifier 1: Mức đường -->
+        <g transform="translate(0, 30)">
+          <rect width="450" height="90" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+          <text x="14" y="26" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Mức Độ Ngọt (Mức Đường)</text>
+          <rect x="280" y="12" width="76" height="20" rx="4" fill="rgba(239,68,68,0.2)"/>
+          <text x="288" y="26" fill="#EF4444" font-family="-apple-system, sans-serif" font-size="10" font-weight="700">Bắt buộc chọn</text>
+          <text x="14" y="50" fill="rgba(255,255,255,0.5)" font-size="11">Quy tắc: Chọn đúng 1 tùy chọn (Min 1, Max 1)</text>
+          <text x="14" y="70" fill="#16C9F6" font-size="11">0% · 30% · 50% (Chuẩn) · 70% · 100%</text>
+        </g>
+
+        <!-- Modifier 2: Lượng đá -->
+        <g transform="translate(0, 130)">
+          <rect width="450" height="90" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+          <text x="14" y="26" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Lượng Đá Phục Vụ</text>
+          <rect x="280" y="12" width="76" height="20" rx="4" fill="rgba(239,68,68,0.2)"/>
+          <text x="288" y="26" fill="#EF4444" font-family="-apple-system, sans-serif" font-size="10" font-weight="700">Bắt buộc chọn</text>
+          <text x="14" y="50" fill="rgba(255,255,255,0.5)" font-size="11">Quy tắc: Chọn đúng 1 tùy chọn (Min 1, Max 1)</text>
+          <text x="14" y="70" fill="#16C9F6" font-size="11">Không đá · 30% đá · 50% đá · 100% đá</text>
+        </g>
+
+        <!-- Modifier 3: Topping thêm -->
+        <g transform="translate(0, 230)">
+          <rect width="450" height="110" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.08)"/>
+          <text x="14" y="26" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Topping Gọi Thêm</text>
+          <rect x="280" y="12" width="76" height="20" rx="4" fill="rgba(255,255,255,0.1)"/>
+          <text x="290" y="26" fill="rgba(255,255,255,0.7)" font-family="-apple-system, sans-serif" font-size="10">Không bắt buộc</text>
+          <text x="14" y="50" fill="rgba(255,255,255,0.5)" font-size="11">Quy tắc: Chọn tối đa 3 loại (Min 0, Max 3)</text>
+          <text x="14" y="72" fill="#10B981" font-size="11">Trân châu hoàng kim (+10k) · Thạch phô mai (+12k)</text>
+          <text x="14" y="92" fill="#10B981" font-size="11">Kem cheese nướng (+15k) · Pudding trứng (+10k)</text>
+        </g>
+      </g>
+
+      <!-- Live POS Preview Card -->
+      <g transform="translate(0, 440)">
+        <rect width="490" height="340" rx="12" fill="rgba(0,0,0,0.5)" stroke="rgba(124,106,238,0.3)"/>
+        <rect width="490" height="36" rx="12" fill="rgba(124,106,238,0.1)"/>
+        <text x="16" y="23" fill="#7C6AEE" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">MÔ PHỎNG HIỂN THỊ KHI NHÂN VIÊN CHỌN TẠI QUẦY POS</text>
+
+        <!-- Preview Modal Content -->
+        <g transform="translate(20, 52)">
+          <text x="0" y="18" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="15" font-weight="800">Trà Sữa Ô Long Nướng</text>
+          <text x="0" y="36" fill="#16C9F6" font-family="-apple-system, sans-serif" font-size="16" font-weight="800">45.000 đ – 55.000 đ</text>
+
+          <text x="0" y="70" fill="rgba(255,255,255,0.6)" font-size="11" font-weight="700">CHỌN KÍCH CỠ:</text>
+          <rect x="0" y="80" width="130" height="32" rx="6" fill="url(#accent-p)"/>
+          <text x="20" y="101" fill="#FFFFFF" font-size="11.5" font-weight="700">Size M (45k)</text>
+          <rect x="140" y="80" width="130" height="32" rx="6" fill="rgba(255,255,255,0.06)"/>
+          <text x="160" y="101" fill="rgba(255,255,255,0.8)" font-size="11.5">Size L (+10k)</text>
+
+          <text x="0" y="140" fill="rgba(255,255,255,0.6)" font-size="11" font-weight="700">MỨC ĐƯỜNG &amp; ĐÁ:</text>
+          <rect x="0" y="150" width="80" height="28" rx="6" fill="rgba(255,255,255,0.06)"/>
+          <text x="14" y="168" fill="rgba(255,255,255,0.7)" font-size="11">30% Đường</text>
+          <rect x="90" y="150" width="90" height="28" rx="6" fill="rgba(22,201,246,0.2)" stroke="#16C9F6"/>
+          <text x="100" y="168" fill="#16C9F6" font-size="11" font-weight="700">50% Đường</text>
+          <rect x="190" y="150" width="80" height="28" rx="6" fill="rgba(255,255,255,0.06)"/>
+          <text x="204" y="168" fill="rgba(255,255,255,0.7)" font-size="11">70% Đá</text>
+
+          <text x="0" y="208" fill="rgba(255,255,255,0.6)" font-size="11" font-weight="700">TOPPING ĐÃ CHỌN:</text>
+          <rect x="0" y="218" width="220" height="28" rx="6" fill="rgba(16,185,129,0.15)"/>
+          <text x="12" y="236" fill="#10B981" font-size="11">✓ Trân châu hoàng kim (+10.000 đ)</text>
+
+          <!-- Total CTA -->
+          <rect x="0" y="260" width="450" height="42" rx="8" fill="url(#accent-p)"/>
+          <text x="20" y="286" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">Thêm vào đơn hàng POS</text>
+          <text x="375" y="286" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="14" font-weight="800">55.000 đ</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

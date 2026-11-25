@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="657" viewBox="84 -5 560 657" role="img" aria-label="HNH personal brand logo">
+<rect x="-1000" y="-1000" width="3000" height="3000" fill="#0C1020"/>
+<defs><linearGradient id="left" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#16d7ff"/><stop offset="25%" stop-color="#168af7"/><stop offset="67%" stop-color="#18419c"/><stop offset="100%" stop-color="#3145a5"/></linearGradient><linearGradient id="mid" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#46d8ff"/><stop offset="36%" stop-color="#377dff"/><stop offset="68%" stop-color="#9462fa"/><stop offset="100%" stop-color="#f151ee"/></linearGradient><linearGradient id="right" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#6b53cd"/><stop offset="32%" stop-color="#7543e6"/><stop offset="70%" stop-color="#be39f4"/><stop offset="100%" stop-color="#ff70f3"/></linearGradient></defs>
+<path fill="url(#left)" d="M 132 88 L 229 16 L 229 414 L 132 491 Z"/>
+<path fill="url(#mid)" d="M 262 171 L 457 305 L 457 399 L 262 266 Z"/>
+<path fill="url(#right)" d="M 492 103 L 594 23 L 594 502 L 492 428 Z"/>
+<g fill="#F5F7FF"><path d="M165 0H393V664H1131V0H1360V1490H1131V860H393V1490H165Z" transform="matrix(0.0426778 0 0 -0.0389262 188.958159 608.000000)"/><path d="M165 0H396V795C396 872 388 1026 379 1213C487 1013 544 910 617 793L1120 0H1384V1490H1153V642C1153 556 1157 417 1168 273C1102 416 1035 529 989 603L428 1490H165Z" transform="matrix(0.0442986 0 0 -0.0389262 324.690730 608.000000)"/><path d="M165 0H393V664H1131V0H1360V1490H1131V860H393V1490H165Z" transform="matrix(0.0426778 0 0 -0.0389262 461.958159 608.000000)"/></g>
+</svg>

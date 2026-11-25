@@ -1,0 +1,4 @@
+Chuẩn bị release production cho task [id].
+Đọc playbooks/release-production.md. Đưa đúng SHA, target, staging, migration hashes, QA,
+backup/rollback và giới hạn. Kiểm tra technical approval gate. Chờ tôi duyệt đúng packet này.
+Sau khi tôi duyệt, release qua protected CI và kiểm tra URL/version/smoke thực tế.

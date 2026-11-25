@@ -1,0 +1,2 @@
+Tiếp tục task [id]. Đọc playbooks/resume.md, state và handoff.
+Giữ scope ban đầu và thay đổi gần nhất, làm từ chặng còn thiếu; không tạo lại tài liệu hoặc ghi đè code.

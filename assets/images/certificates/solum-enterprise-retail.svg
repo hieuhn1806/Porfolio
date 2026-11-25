@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 560" width="840" height="560" fill="none">
+  <defs>
+    <linearGradient id="solBg" x1="0" y1="0" x2="840" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="solBlue" x1="0" y1="0" x2="840" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="12" y="12" width="816" height="536" rx="16" fill="url(#solBg)" stroke="#CBD5E1" stroke-width="2"/>
+  <rect x="26" y="26" width="788" height="508" rx="10" stroke="#0284C7" stroke-width="2.5"/>
+  <rect x="34" y="34" width="772" height="492" rx="6" stroke="#E2E8F0" stroke-width="1"/>
+
+  <g transform="translate(68, 64)">
+    <text x="0" y="24" font-family="Inter, -apple-system, sans-serif" font-size="22" font-weight="900" letter-spacing="2" fill="#0284C7">SOLUM</text>
+    <text x="100" y="22" font-family="Inter, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#0F172A">Enterprise Retail &amp; PDA Solutions</text>
+  </g>
+
+  <g transform="translate(640, 64)">
+    <rect width="132" height="32" rx="6" fill="#0284C7" fill-opacity="0.1"/>
+    <text x="66" y="21" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#0369A1" text-anchor="middle">CERTIFIED EXPERT</text>
+  </g>
+
+  <text x="420" y="160" font-family="Inter, -apple-system, sans-serif" font-size="13" font-weight="600" letter-spacing="3" fill="#64748B" text-anchor="middle">CERTIFICATE OF RECOGNITION</text>
+  <text x="420" y="196" font-family="Inter, -apple-system, sans-serif" font-size="15" fill="#475569" text-anchor="middle">Proudly presented to</text>
+
+  <text x="420" y="250" font-family="Inter, -apple-system, sans-serif" font-size="34" font-weight="800" fill="#0F172A" text-anchor="middle">Hoàng Ngọc Hiếu</text>
+  <line x1="220" y1="268" x2="620" y2="268" stroke="#CBD5E1" stroke-width="1.5"/>
+
+  <text x="420" y="302" font-family="Inter, -apple-system, sans-serif" font-size="14" fill="#475569" text-anchor="middle">for outstanding contribution in Product UX/UI Design &amp; System Usability</text>
+  <text x="420" y="338" font-family="Inter, -apple-system, sans-serif" font-size="22" font-weight="750" fill="#0284C7" text-anchor="middle">Enterprise PDA &amp; Smart Retail System Certification</text>
+
+  <text x="420" y="375" font-family="Inter, -apple-system, sans-serif" font-size="12.5" fill="#64748B" text-anchor="middle">
+    Handheld PDA UI · High-Speed Barcode Scanning UX · ESL Sync · Industrial Ergonomics · Multi-store Operations
+  </text>
+
+  <g transform="translate(68, 440)">
+    <line x1="0" y1="36" x2="180" y2="36" stroke="#94A3B8" stroke-width="1"/>
+    <text x="0" y="28" font-family="'Brush Script MT', cursive, sans-serif" font-size="22" fill="#334155">Sung-Ho Kim</text>
+    <text x="0" y="52" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#64748B">Sung-Ho Kim</text>
+    <text x="0" y="66" font-family="Inter, -apple-system, sans-serif" font-size="10" fill="#94A3B8">Head of Software Engineering, SOLUM</text>
+
+    <g transform="translate(310, -20)">
+      <circle cx="42" cy="42" r="38" fill="#F0F9FF" stroke="#0284C7" stroke-width="2"/>
+      <path d="M42 22 L46 34 L58 35 L49 43 L52 55 L42 48 L32 55 L35 43 L26 35 L38 34 Z" fill="#0284C7"/>
+      <text x="42" y="70" font-family="Inter, -apple-system, sans-serif" font-size="7.5" font-weight="700" fill="#0F172A" text-anchor="middle">ENTERPRISE VERIFIED</text>
+    </g>
+
+    <g transform="translate(520, 20)">
+      <text x="180" y="16" font-family="Inter, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#334155" text-anchor="end">Certificate ID: SOLUM-PDA-2025</text>
+      <text x="180" y="32" font-family="Inter, -apple-system, sans-serif" font-size="10.5" fill="#94A3B8" text-anchor="end">SOLUM Group Global Retail Solutions</text>
+      <text x="180" y="48" font-family="Inter, -apple-system, sans-serif" font-size="10.5" fill="#94A3B8" text-anchor="end">Issued: March 2025 · Enterprise Division</text>
+    </g>
+  </g>
+</svg>

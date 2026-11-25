@@ -1,0 +1,3 @@
+Chuyển review_mode sang checkpoint cho yêu cầu này.
+Duyệt lần lượt Requirements → UX flow → UI → DB/API → Staging → Production.
+Mỗi chặng đưa artifact cụ thể để tôi xem; không hỏi duyệt trước khi có kết quả review được.

@@ -1,0 +1,5 @@
+Thêm [tính năng] vào ứng dụng hiện tại.
+Người dùng: [role]. Business rules: [rules]. Trạng thái: [states nếu có].
+Đọc code, design system và tài liệu hiện có trước. Không thay đổi phần không liên quan.
+Chạy playbooks/build-product.md, cập nhật UI/DB/API/permissions và test cả các flow bị ảnh hưởng.
+Deploy staging nếu connector và target đã được thiết lập. Đưa bằng chứng và release để tôi duyệt.

@@ -1,0 +1,3264 @@
+{
+  "file": "Untitled UI – PRO VARIABLES (v6.0)",
+  "nodeCount": 108800,
+  "totalComponents": 10494,
+  "totalInstances": 40683,
+  "pageCount": 88,
+  "rawCanvasCount": 107,
+  "tokensCount": 865,
+  "pages": [
+    {
+      "id": "pg-5",
+      "guid": "18:1951",
+      "name": "Typography",
+      "originalName": "      ↳ Typography",
+      "nodeCount": 255,
+      "components": 1,
+      "instances": 111,
+      "representatives": [
+        "Typography",
+        "Typeface",
+        "Notes and documentation (you can delete this)",
+        "Rich text",
+        "Image wrap",
+        "Display vs text",
+        "Line height",
+        "Font weights",
+        "Typeface and weights",
+        "Weights",
+        "Inspect typefaces",
+        "Text styles"
+      ],
+      "variants": {},
+      "frameCount": 75,
+      "group": "Foundations"
+    },
+    {
+      "id": "pg-40",
+      "guid": "1023:36350",
+      "name": "Colors",
+      "originalName": "      ↳ Colors ✨",
+      "nodeCount": 1793,
+      "components": 2,
+      "instances": 1542,
+      "representatives": [
+        "Swatch",
+        "Swatches",
+        "Gradients",
+        "Rows",
+        "Notes and documentation (you can delete this)",
+        "Rich text",
+        "Image wrap",
+        "WCAG 2.1 contrast levels",
+        "Swatch and text",
+        "Image and links",
+        "Colors",
+        "Badge wrap"
+      ],
+      "variants": {},
+      "frameCount": 204,
+      "group": "Foundations"
+    },
+    {
+      "id": "pg-41",
+      "guid": "1025:31781",
+      "name": "Misc icons",
+      "originalName": "      ↳ Misc icons",
+      "nodeCount": 6572,
+      "components": 1013,
+      "instances": 148,
+      "representatives": [
+        "_Dot",
+        "Featured icon",
+        "Country icons",
+        "Payment method icon",
+        "Star icon",
+        "Emoji",
+        "Check icon",
+        "Integration icons / Browsers",
+        "Integration icons / Social networks",
+        "Integration icons / Messengers",
+        "Integration icons / Design",
+        "Integration icons / OS"
+      ],
+      "variants": {
+        "State": [
+          "Default",
+          "Hover"
+        ],
+        "Size": [
+          "lg",
+          "md",
+          "sm",
+          "xl",
+          "xs"
+        ],
+        "Color": [
+          "Brand",
+          "Error",
+          "Gray",
+          "Primary",
+          "Success",
+          "Warning",
+          "Yellow"
+        ],
+        "Type": [
+          "Dark",
+          "Default",
+          "Filled",
+          "Glass",
+          "Gradient",
+          "Gray",
+          "Light",
+          "Line"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 872,
+      "group": "Foundations"
+    },
+    {
+      "id": "pg-42",
+      "guid": "1030:33573",
+      "name": "Effect styles",
+      "originalName": "      ↳ Effect styles ✨",
+      "nodeCount": 83,
+      "components": 3,
+      "instances": 44,
+      "representatives": [
+        "Shadows",
+        "Blurs",
+        "Blur background",
+        "Focus styles",
+        "Notes and documentation (you can delete this)",
+        "Rich text",
+        "Image wrap",
+        "Focus ring styles variables",
+        "Edit focus rings variables",
+        "Update shadow effects colors",
+        "Buttons with skeuomorphism",
+        "Skeuomorphic effects"
+      ],
+      "variants": {},
+      "frameCount": 30,
+      "group": "Foundations"
+    },
+    {
+      "id": "pg-45",
+      "guid": "1053:41971",
+      "name": "Portfolio mockups",
+      "originalName": "      ↳ Portfolio mockups",
+      "nodeCount": 695,
+      "components": 6,
+      "instances": 129,
+      "representatives": [
+        "Portfolio mockup",
+        "Browser toolbar",
+        "Mockup wrap",
+        "Toolbar and mockup",
+        "Mockups",
+        "Mockup auto layout",
+        "Notes and documentation (you can delete this)",
+        "Rich text",
+        "Image wrap",
+        "Portfolio mockup example",
+        "Portfolio mockup export",
+        "Portfolio mockup drag and drop"
+      ],
+      "variants": {
+        "Type": [
+          "Minimal color",
+          "Minimal monotone",
+          "Safari"
+        ],
+        "Theme": [
+          "Dark",
+          "Light"
+        ]
+      },
+      "frameCount": 371,
+      "group": "Foundations"
+    },
+    {
+      "id": "pg-46",
+      "guid": "1054:557",
+      "name": "Design annotations",
+      "originalName": "      ↳ Design annotations",
+      "nodeCount": 261,
+      "components": 45,
+      "instances": 55,
+      "representatives": [
+        "Footer",
+        "Design note",
+        "Cursor",
+        "Numeric key",
+        "Numeric key combo",
+        "Lines",
+        "Measure + spacing guide",
+        "Heading and supporting text",
+        "Resources",
+        "Resource links",
+        "Heading and resources",
+        "Design system header"
+      ],
+      "variants": {
+        "State": [
+          "Arrow",
+          "Drag",
+          "Hand"
+        ],
+        "Type": [
+          "Cell default",
+          "Cell swatch dark",
+          "Cell swatch light",
+          "Divider",
+          "Header",
+          "Lead cell primary",
+          "Lead cell secondary",
+          "Lead cell tertiary"
+        ],
+        "Size": [
+          "md",
+          "sm"
+        ]
+      },
+      "frameCount": 70,
+      "group": "Foundations"
+    },
+    {
+      "id": "pg-47",
+      "guid": "1083:118533",
+      "name": "Logos",
+      "originalName": "      ↳ Logos",
+      "nodeCount": 2858,
+      "components": 373,
+      "instances": 28,
+      "representatives": [
+        "Press logo",
+        "Notes and documentation (you can delete this)",
+        "Rich text",
+        "Image wrap",
+        "Image and links",
+        "Edit company logo avatars",
+        "Change company logo placeholders",
+        "Logos not optically resized",
+        "Logos optically resized",
+        "Logos sizing heights",
+        "Logos optical lines",
+        "Company logo"
+      ],
+      "variants": {},
+      "frameCount": 1111,
+      "group": "Foundations"
+    },
+    {
+      "id": "pg-80",
+      "guid": "3463:407484",
+      "name": "Icons",
+      "originalName": "      ↳ Icons",
+      "nodeCount": 3668,
+      "components": 1173,
+      "instances": 58,
+      "representatives": [
+        "Layout",
+        "Charts",
+        "Security",
+        "Education",
+        "Development",
+        "Arrows",
+        "Finance & eCommerce",
+        "General",
+        "Alerts & feedback",
+        "Shapes",
+        "Users",
+        "Media & devices"
+      ],
+      "variants": {},
+      "frameCount": 60,
+      "group": "Foundations"
+    },
+    {
+      "id": "pg-81",
+      "guid": "4938:371336",
+      "name": "Background elements",
+      "originalName": "      ↳ Background elements",
+      "nodeCount": 1715,
+      "components": 42,
+      "instances": 29,
+      "representatives": [
+        "Background overlay",
+        "Mask",
+        "Blocks",
+        "Horizontal",
+        "Vertical",
+        "_Background mask",
+        "Lines",
+        "Background pattern decorative",
+        "Block"
+      ],
+      "variants": {
+        "Type": [
+          "Circles",
+          "Default",
+          "Empty",
+          "Gradient",
+          "Grid",
+          "Grid check",
+          "Grid dot",
+          "Squares"
+        ],
+        "Size": [
+          "lg",
+          "md",
+          "sm"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 1365,
+      "group": "Foundations"
+    },
+    {
+      "id": "pg-82",
+      "guid": "5245:372829",
+      "name": "Spacing, radius & grids",
+      "originalName": "      ↳ Spacing, radius & grids",
+      "nodeCount": 639,
+      "components": 3,
+      "instances": 443,
+      "representatives": [
+        "Actions",
+        "Notes and documentation (you can delete this)",
+        "Rich text",
+        "Image wrap",
+        "Spacing",
+        "Grid layouts",
+        "Desktop",
+        "MacBook Pro",
+        "Spacer guide",
+        "Tablet",
+        "iPad Mini",
+        "Mobile"
+      ],
+      "variants": {},
+      "frameCount": 175,
+      "group": "Foundations"
+    },
+    {
+      "id": "pg-0",
+      "guid": "1:1183",
+      "name": "Buttons",
+      "originalName": "      ↳ Buttons ✨",
+      "nodeCount": 2572,
+      "components": 768,
+      "instances": 1023,
+      "representatives": [
+        "Social button",
+        "Social button groups",
+        "Mobile app store badge",
+        "Notes and documentation (you can delete this)",
+        "Buttons/Button close X",
+        "Buttons/Button",
+        "Rich text",
+        "Image wrap",
+        "Buttons/Button destructive",
+        "Buttons 01",
+        "Buttons 02",
+        "Button hierarchy"
+      ],
+      "variants": {
+        "Theme": [
+          "Brand",
+          "Color",
+          "Gray"
+        ],
+        "State": [
+          "Default",
+          "Disabled",
+          "Focused",
+          "Hover"
+        ],
+        "Size": [
+          "2xl",
+          "lg",
+          "md",
+          "sm",
+          "xl",
+          "xs"
+        ],
+        "Hierarchy": [
+          "Link",
+          "Link color",
+          "Link gray",
+          "Primary",
+          "Secondary",
+          "Secondary color",
+          "Secondary gray",
+          "Tertiary"
+        ],
+        "Icon": [
+          "Default",
+          "Dot leading",
+          "Only"
+        ]
+      },
+      "frameCount": 208,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-1",
+      "guid": "12:539",
+      "name": "Badges",
+      "originalName": "      ↳ Badges",
+      "nodeCount": 3262,
+      "components": 1122,
+      "instances": 1093,
+      "representatives": [
+        "Badge",
+        "Badge group",
+        "_Badge close X",
+        "Size=sm, Type=Pill color, Icon=False, Color=Brand",
+        "Size=md, Type=Pill color, Icon=False, Color=Brand",
+        "Size=lg, Type=Pill color, Icon=False, Color=Brand",
+        "Size=lg, Type=Pill color, Icon=Dot, Color=Brand",
+        "Size=md, Type=Pill color, Icon=Dot, Color=Brand",
+        "Size=sm, Type=Pill color, Icon=Dot, Color=Brand",
+        "Size=md, Type=Pill color, Icon=Country, Color=Brand",
+        "Size=lg, Type=Pill color, Icon=Country, Color=Brand",
+        "Size=sm, Type=Pill color, Icon=Country, Color=Brand"
+      ],
+      "variants": {
+        "Size": [
+          "lg",
+          "md",
+          "sm"
+        ],
+        "Type": [
+          "Badge color",
+          "Badge modern",
+          "Pill color",
+          "Pill outline",
+          "Rounded",
+          "Square"
+        ],
+        "Icon": [
+          "Avatar",
+          "Country",
+          "Dot",
+          "False",
+          "Icon leading",
+          "Icon trailing",
+          "Only",
+          "X close"
+        ],
+        "Color": [
+          "Blue",
+          "Blue gray",
+          "Blue light",
+          "Brand",
+          "Error",
+          "Gray",
+          "Gray blue",
+          "Indigo"
+        ],
+        "Theme": [
+          "Light",
+          "Modern",
+          "Outline"
+        ],
+        "State": [
+          "Default",
+          "Hover"
+        ]
+      },
+      "frameCount": 83,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-2",
+      "guid": "16:399",
+      "name": "Button groups",
+      "originalName": "      ↳ Button groups",
+      "nodeCount": 119,
+      "components": 35,
+      "instances": 57,
+      "representatives": [
+        "_Button group base",
+        "Button group",
+        "Current=False, Icon=False, State=Default",
+        "Current=False, Icon=False, State=Hover",
+        "Current=False, Icon=False, State=Focused",
+        "Current=False, Icon=False, State=Disabled",
+        "Current=False, Icon=Leading, State=Hover",
+        "Current=False, Icon=Leading, State=Disabled",
+        "Current=False, Icon=Leading, State=Focused",
+        "Current=False, Icon=Leading, State=Default",
+        "Current=False, Icon=Only, State=Hover",
+        "Current=False, Icon=Only, State=Disabled"
+      ],
+      "variants": {
+        "Current": [
+          "False",
+          "True"
+        ],
+        "Icon": [
+          "Dot",
+          "False",
+          "Leading",
+          "Only"
+        ],
+        "State": [
+          "Default",
+          "Disabled",
+          "Focused",
+          "Hover"
+        ]
+      },
+      "frameCount": 2,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-3",
+      "guid": "18:0",
+      "name": "Dropdowns",
+      "originalName": "      ↳ Dropdowns ✨",
+      "nodeCount": 1336,
+      "components": 127,
+      "instances": 391,
+      "representatives": [
+        "Input dropdown",
+        "Input with label",
+        "Input",
+        "_Input dropdown menu item",
+        "Menu",
+        "Menu items",
+        "_Dropdown list item",
+        "_Dropdown list header",
+        "Dropdown"
+      ],
+      "variants": {
+        "Size": [
+          "md",
+          "sm"
+        ],
+        "Type": [
+          "Avatar",
+          "Avatar group",
+          "Avatar leading",
+          "Button",
+          "Default",
+          "Dot leading",
+          "Header",
+          "Icon"
+        ],
+        "State": [
+          "Default",
+          "Disabled",
+          "Focused",
+          "Hover",
+          "Hover/active",
+          "Open",
+          "Placeholder"
+        ],
+        "Icon": [
+          "False",
+          "True"
+        ]
+      },
+      "frameCount": 422,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-4",
+      "guid": "18:1350",
+      "name": "Avatars",
+      "originalName": "      ↳ Avatars",
+      "nodeCount": 914,
+      "components": 128,
+      "instances": 566,
+      "representatives": [
+        "Avatar",
+        "_Avatar online indicator",
+        "Avatar label group",
+        "_Avatar image",
+        "Avatar users",
+        "_Avatar company icon",
+        "_Avatar add button",
+        "Avatar profile photo",
+        "Avatar group",
+        "Notes and documentation (you can delete this)",
+        "Verified tick",
+        "Image wrap"
+      ],
+      "variants": {
+        "Type": [
+          "Portrait",
+          "Square"
+        ],
+        "Size": [
+          "2xl",
+          "3xl",
+          "4xl",
+          "lg",
+          "md",
+          "sm",
+          "xl",
+          "xs"
+        ],
+        "State": [
+          "Default",
+          "Disabled",
+          "Focus",
+          "Hover"
+        ]
+      },
+      "frameCount": 144,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-6",
+      "guid": "43:0",
+      "name": "Tabs",
+      "originalName": "      ↳ Tabs",
+      "nodeCount": 568,
+      "components": 132,
+      "instances": 355,
+      "representatives": [
+        "_Tab button base",
+        "Horizontal tabs",
+        "Vertical tabs",
+        "Current=False, Size=sm, Type=Underline, State=Default",
+        "Current=False, Size=sm, Type=Underline, State=Hover",
+        "Current=True, Size=sm, Type=Underline, State=Default",
+        "Current=True, Size=sm, Type=Underline, State=Hover",
+        "Current=True, Size=sm, Type=Underline, State=Focus",
+        "Current=False, Size=sm, Type=Underline, State=Focus",
+        "Current=False, Size=sm, Type=Button gray, State=Default",
+        "Current=False, Size=sm, Type=Button gray, State=Hover",
+        "Current=False, Size=sm, Type=Button gray, State=Focus"
+      ],
+      "variants": {
+        "Current": [
+          "False",
+          "True"
+        ],
+        "Size": [
+          "md",
+          "sm"
+        ],
+        "Type": [
+          "Button border",
+          "Button brand",
+          "Button gray",
+          "Button minimal",
+          "Button primary",
+          "Button white",
+          "Line",
+          "Line (vertical tabs)"
+        ],
+        "State": [
+          "Default",
+          "Focus",
+          "Hover"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 7,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-7",
+      "guid": "43:3087",
+      "name": "Breadcrumbs",
+      "originalName": "      ↳ Breadcrumbs",
+      "nodeCount": 249,
+      "components": 52,
+      "instances": 164,
+      "representatives": [
+        "_Breadcrumb button base",
+        "Breadcrumbs",
+        "Current=False, Type=Text, Icon=True, State=Default",
+        "Current=False, Type=Text, Icon=True, State=Hover",
+        "Current=False, Type=Text, Icon=True, State=Focused",
+        "Current=False, Type=Text, Icon=False, State=Default",
+        "Current=False, Type=Text, Icon=False, State=Hover",
+        "Current=False, Type=Text, Icon=False, State=Focused",
+        "Divider=Chevron, Type=Text, Breakpoint=Mobile",
+        "Divider=Chevron, Type=Text, Breakpoint=Desktop",
+        "Divider=Slash, Type=Text, Breakpoint=Mobile",
+        "Divider=Slash, Type=Text, Breakpoint=Desktop"
+      ],
+      "variants": {
+        "Current": [
+          "False",
+          "True"
+        ],
+        "Type": [
+          "Button brand",
+          "Button gray",
+          "Text",
+          "Text with line"
+        ],
+        "Icon": [
+          "False",
+          "True"
+        ],
+        "State": [
+          "Default",
+          "Focused",
+          "Hover"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 14,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-8",
+      "guid": "53:1288",
+      "name": "Progress steps",
+      "originalName": "      ↳ Progress steps",
+      "nodeCount": 1301,
+      "components": 249,
+      "instances": 371,
+      "representatives": [
+        "_Step icon base",
+        "_Step base",
+        "Progress steps / Progress minimal icons connected",
+        "Progress steps / Progress minimal icons",
+        "Progress steps / Progress text with line",
+        "Progress steps / Progress icons centered",
+        "Progress steps / Progress icons with text"
+      ],
+      "variants": {
+        "Status": [
+          "Complete",
+          "Current",
+          "Incomplete"
+        ],
+        "Size": [
+          "lg",
+          "md",
+          "sm"
+        ],
+        "Type": [
+          "Featured icon",
+          "Featured icon left",
+          "Featured icon top",
+          "Icon",
+          "Icon featured",
+          "Icon left",
+          "Icon only",
+          "Icon top"
+        ],
+        "State": [
+          "Default",
+          "Focus",
+          "Focused",
+          "Hover"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 275,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-10",
+      "guid": "85:1269",
+      "name": "Inputs",
+      "originalName": "      ↳ Inputs",
+      "nodeCount": 1755,
+      "components": 170,
+      "instances": 337,
+      "representatives": [
+        "Input field",
+        "_Mega input field base",
+        "Verification code input field",
+        "Input with label",
+        "Input",
+        "Textarea input field",
+        "_WYSIWYG editor icon",
+        "WYSIWYG toolbar",
+        "WYSIWYG tooltip",
+        "Text input"
+      ],
+      "variants": {
+        "Size": [
+          "lg",
+          "md",
+          "sm"
+        ],
+        "Type": [
+          "Bold",
+          "Default",
+          "H1",
+          "H2",
+          "Icon leading",
+          "Italic",
+          "Leading dropdown",
+          "Leading text"
+        ],
+        "State": [
+          "Default",
+          "Disabled",
+          "Filled",
+          "Focused",
+          "Placeholder"
+        ],
+        "Breakpoint": [
+          "Default",
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 608,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-11",
+      "guid": "122:3484",
+      "name": "Checkbox groups",
+      "originalName": "      ↳ Checkbox groups",
+      "nodeCount": 2100,
+      "components": 216,
+      "instances": 537,
+      "representatives": [
+        "Checkbox group item",
+        "Checkbox group",
+        "Header",
+        "Body",
+        "Price"
+      ],
+      "variants": {
+        "Size": [
+          "md",
+          "sm"
+        ],
+        "Type": [
+          "Avatar",
+          "Checkbox",
+          "Icon card",
+          "Icon simple",
+          "Payment icon",
+          "Radio button"
+        ],
+        "State": [
+          "Default",
+          "Disabled",
+          "Focused",
+          "Hover"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 770,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-21",
+      "guid": "225:7288",
+      "name": "Pagination",
+      "originalName": "      ↳ Pagination",
+      "nodeCount": 337,
+      "components": 64,
+      "instances": 204,
+      "representatives": [
+        "_Pagination dot indicator",
+        "Pagination dot group",
+        "_Pagination number base",
+        "_Pagination button group base",
+        "Pagination",
+        "_Carousel arrow",
+        "Carousel image"
+      ],
+      "variants": {
+        "Type": [
+          "Card button group center aligned",
+          "Card button group left aligned",
+          "Card button group right aligned",
+          "Card default",
+          "Card minimal center aligned",
+          "Card minimal left aligned",
+          "Card minimal right aligned",
+          "Page default"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Size": [
+          "lg",
+          "md"
+        ],
+        "State": [
+          "Active/hover",
+          "Default",
+          "Focused",
+          "Hover/active"
+        ],
+        "Icon": [
+          "False",
+          "Leading",
+          "Only",
+          "Trailing"
+        ],
+        "Current": [
+          "False",
+          "True"
+        ]
+      },
+      "frameCount": 41,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-44",
+      "guid": "1052:485",
+      "name": "Tooltips",
+      "originalName": "      ↳ Tooltips",
+      "nodeCount": 168,
+      "components": 42,
+      "instances": 57,
+      "representatives": [
+        "Tooltip",
+        "Help icon",
+        "Supporting text=True, Arrow=Bottom center",
+        "Supporting text=True, Arrow=None",
+        "Supporting text=False, Arrow=Bottom center",
+        "Supporting text=False, Arrow=None",
+        "Supporting text=True, Arrow=Top center",
+        "Supporting text=False, Arrow=Top center",
+        "Supporting text=True, Arrow=Bottom left",
+        "Supporting text=False, Arrow=Bottom left",
+        "Supporting text=True, Arrow=Left",
+        "Supporting text=False, Arrow=Left"
+      ],
+      "variants": {},
+      "frameCount": 35,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-48",
+      "guid": "1086:1423",
+      "name": "Sliders",
+      "originalName": "      ↳ Sliders",
+      "nodeCount": 215,
+      "components": 39,
+      "instances": 62,
+      "representatives": [
+        "Slider",
+        "_Control handle",
+        "Label=Bottom, Right control=25%, Left control=0%",
+        "Label=False, Right control=25%, Left control=0%",
+        "Label=False, Right control=50%, Left control=0%",
+        "Label=Bottom, Right control=50%, Left control=0%",
+        "Label=False, Right control=75%, Left control=0%",
+        "Label=Bottom, Right control=75%, Left control=0%",
+        "Label=False, Right control=100%, Left control=0%",
+        "Label=Bottom, Right control=100%, Left control=0%",
+        "Label=False, Right control=75%, Left control=25%",
+        "Label=False, Right control=50%, Left control=25%"
+      ],
+      "variants": {
+        "State": [
+          "Default",
+          "Focused",
+          "Hover"
+        ],
+        "Type": [
+          "False",
+          "Text",
+          "Tooltip"
+        ]
+      },
+      "frameCount": 47,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-49",
+      "guid": "1097:63638",
+      "name": "Checkboxes",
+      "originalName": "      ↳ Checkboxes",
+      "nodeCount": 342,
+      "components": 112,
+      "instances": 91,
+      "representatives": [
+        "Checkbox",
+        "_Checkbox base",
+        "Checked=True, Indeterminate=False, Size=sm, Type=Checkbox, Text=True, State=Focused",
+        "Checked=True, Indeterminate=False, Size=sm, Type=Checkbox, Text=True, State=Hover",
+        "Checked=True, Indeterminate=False, Size=sm, Type=Checkbox, Text=True, State=Default",
+        "Checked=False, Indeterminate=False, Size=sm, Type=Checkbox, Text=True, State=Focused",
+        "Checked=False, Indeterminate=False, Size=sm, Type=Checkbox, Text=True, State=Hover",
+        "Checked=False, Indeterminate=False, Size=sm, Type=Checkbox, Text=True, State=Default",
+        "Checked=True, Indeterminate=False, Size=sm, Type=Checkbox, Text=False, State=Focused",
+        "Checked=True, Indeterminate=False, Size=sm, Type=Checkbox, Text=False, State=Disabled",
+        "Checked=True, Indeterminate=False, Size=sm, Type=Checkbox, Text=False, State=Hover",
+        "Checked=True, Indeterminate=False, Size=sm, Type=Checkbox, Text=False, State=Default"
+      ],
+      "variants": {
+        "Size": [
+          "md",
+          "sm"
+        ],
+        "Type": [
+          "Checkbox",
+          "Radio"
+        ],
+        "State": [
+          "Default",
+          "Disabled",
+          "Focused",
+          "Hover"
+        ]
+      },
+      "frameCount": 74,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-50",
+      "guid": "1102:4631",
+      "name": "Toggles",
+      "originalName": "      ↳ Toggles",
+      "nodeCount": 319,
+      "components": 96,
+      "instances": 66,
+      "representatives": [
+        "_Toggle base",
+        "Toggle",
+        "Type=Default, Pressed=False, Size=md, State=Default",
+        "Type=Default, Pressed=False, Size=md, State=Hover",
+        "Type=Default, Pressed=False, Size=md, State=Focus",
+        "Type=Default, Pressed=True, Size=md, State=Default",
+        "Type=Default, Pressed=True, Size=md, State=Hover",
+        "Type=Default, Pressed=True, Size=md, State=Focus",
+        "Type=Default, Pressed=False, Size=md, State=Disabled",
+        "Type=Default, Pressed=True, Size=md, State=Disabled",
+        "Type=Default, Pressed=False, Size=sm, State=Default",
+        "Type=Default, Pressed=False, Size=sm, State=Hover"
+      ],
+      "variants": {
+        "Type": [
+          "Default",
+          "Slim"
+        ],
+        "Size": [
+          "md",
+          "sm"
+        ],
+        "State": [
+          "Default",
+          "Disabled",
+          "Focus",
+          "Hover"
+        ]
+      },
+      "frameCount": 92,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-51",
+      "guid": "1143:85678",
+      "name": "Date pickers",
+      "originalName": "      ↳ Date pickers",
+      "nodeCount": 470,
+      "components": 42,
+      "instances": 324,
+      "representatives": [
+        "_Date picker list item",
+        "Left picker",
+        "Dates",
+        "Bottom panel",
+        "Calendar",
+        "Date pickers",
+        "Trailing content",
+        "Leading content",
+        "Right picker",
+        "_Date picker menu",
+        "Date picker",
+        "Date picker dropdown"
+      ],
+      "variants": {
+        "State": [
+          "Active",
+          "Default",
+          "Disabled",
+          "Focused",
+          "Hover",
+          "Placeholder"
+        ],
+        "Type": [
+          "Active",
+          "Default",
+          "Dual dates",
+          "Selected",
+          "Single date",
+          "Today's date"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 48,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-52",
+      "guid": "1154:89940",
+      "name": "Progress indicators",
+      "originalName": "      ↳ Progress indicators",
+      "nodeCount": 445,
+      "components": 75,
+      "instances": 2,
+      "representatives": [
+        "Progress bar",
+        "Progress circle",
+        "Ring"
+      ],
+      "variants": {
+        "Size": [
+          "lg",
+          "md",
+          "sm",
+          "xs",
+          "xxs"
+        ]
+      },
+      "frameCount": 143,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-53",
+      "guid": "1157:90306",
+      "name": "File upload",
+      "originalName": "      ↳ File upload",
+      "nodeCount": 179,
+      "components": 23,
+      "instances": 62,
+      "representatives": [
+        "_File upload base",
+        "_File upload item base",
+        "File queue",
+        "File upload",
+        "Progress fill"
+      ],
+      "variants": {
+        "State": [
+          "Complete",
+          "Default",
+          "Disabled",
+          "Error",
+          "Hover",
+          "In progress"
+        ],
+        "Type": [
+          "Progress bar",
+          "Progress fill"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 63,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-55",
+      "guid": "1172:32",
+      "name": "Loading indicators",
+      "originalName": "      ↳ Loading indicators",
+      "nodeCount": 75,
+      "components": 12,
+      "instances": 1,
+      "representatives": [
+        "Loading indicator",
+        "Style=Line simple, Size=md",
+        "Style=Dot circle, Size=md",
+        "Style=Dot circle, Size=lg",
+        "Style=Line simple, Size=lg",
+        "Style=Dot circle, Size=xl",
+        "Style=Line simple, Size=xl",
+        "Style=Line spinner, Size=xl",
+        "Style=Line spinner, Size=lg",
+        "Style=Line spinner, Size=md",
+        "Style=Line simple, Size=sm",
+        "Style=Dot circle, Size=sm"
+      ],
+      "variants": {
+        "Size": [
+          "lg",
+          "md",
+          "sm",
+          "xl"
+        ]
+      },
+      "frameCount": 29,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-78",
+      "guid": "3306:403749",
+      "name": "Tags",
+      "originalName": "      ↳ Tags",
+      "nodeCount": 415,
+      "components": 105,
+      "instances": 158,
+      "representatives": [
+        "Tag",
+        "_Tag close X",
+        "_Tag count",
+        "_Tag checkbox",
+        "Size=sm, Icon=False, Action=Text only, Checkbox=False",
+        "Size=sm, Icon=Dot, Action=Text only, Checkbox=False",
+        "Size=sm, Icon=Country, Action=Text only, Checkbox=False",
+        "Size=sm, Icon=Avatar, Action=Text only, Checkbox=False",
+        "Size=sm, State=Default",
+        "Size=sm, State=Hover",
+        "Size=md, State=Default",
+        "Size=md, State=Hover"
+      ],
+      "variants": {
+        "Size": [
+          "lg",
+          "md",
+          "sm"
+        ],
+        "Icon": [
+          "Avatar",
+          "Country",
+          "Dot",
+          "False"
+        ],
+        "State": [
+          "Default",
+          "Disbaled",
+          "Focused",
+          "Hover"
+        ]
+      },
+      "frameCount": 76,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-79",
+      "guid": "3307:403757",
+      "name": "Command menus",
+      "originalName": "      ↳ Command menus",
+      "nodeCount": 545,
+      "components": 72,
+      "instances": 195,
+      "representatives": [
+        "_Command dropdown menu item",
+        "_Command shortcut",
+        "_Command input",
+        "Menu items",
+        "_Command bar menu section",
+        "Command bar",
+        "Content trailing",
+        "Text and avatar",
+        "Content leading",
+        "Image",
+        "Text and image",
+        "Actions"
+      ],
+      "variants": {
+        "State": [
+          "Default",
+          "Filled",
+          "Focus",
+          "Hover",
+          "Placeholder"
+        ],
+        "Type": [
+          "Actions",
+          "Avatar leading",
+          "Command only",
+          "Default",
+          "Dot leading",
+          "Empty state",
+          "Icon",
+          "Icon leading"
+        ],
+        "Size": [
+          "md",
+          "sm"
+        ]
+      },
+      "frameCount": 159,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-87",
+      "guid": "7988:349308",
+      "name": "Calendars",
+      "originalName": "      ↳ Calendars ✨",
+      "nodeCount": 862,
+      "components": 84,
+      "instances": 469,
+      "representatives": [
+        "_Calendar view dropdown",
+        "_Calendar header",
+        "Main",
+        "_Calendar cell date",
+        "Events",
+        "_Calendar event/Month view",
+        "_Calendar cell/Month view",
+        "Selected date",
+        "Cell",
+        "_Calendar event/Day and week view",
+        "_Calendar cell/Day and week view",
+        "_Calendar column header"
+      ],
+      "variants": {
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "State": [
+          "Default",
+          "Disabled",
+          "Hover"
+        ],
+        "Color": [
+          "Blue",
+          "Brand",
+          "Gray",
+          "Green",
+          "Indigo",
+          "Orange",
+          "Pink",
+          "Purple"
+        ],
+        "Type": [
+          "120 min",
+          "30 min",
+          "60 min",
+          "90 min",
+          "Day view",
+          "Default",
+          "Empty",
+          "Month view"
+        ]
+      },
+      "frameCount": 186,
+      "group": "Shared components"
+    },
+    {
+      "id": "pg-9",
+      "guid": "82:1862",
+      "name": "Application navigation",
+      "originalName": "      ↳ Application navigation ✨",
+      "nodeCount": 792,
+      "components": 79,
+      "instances": 396,
+      "representatives": [
+        "_Nav item base",
+        "_Nav item dropdown base",
+        "Menu",
+        "_Nav featured card",
+        "Sidebar navigation",
+        "Navigation",
+        "Header",
+        "Footer",
+        "_Application nav menu button",
+        "Sub nav",
+        "_Nav item button",
+        "Header navigation"
+      ],
+      "variants": {
+        "Current": [
+          "False",
+          "True"
+        ],
+        "State": [
+          "Default",
+          "Focused",
+          "Hover"
+        ],
+        "Type": [
+          "Account",
+          "Card",
+          "Cookie preferences",
+          "Current projects",
+          "Event CTA",
+          "Free trial CTA",
+          "Image",
+          "Menu item"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Size": [
+          "lg",
+          "md"
+        ]
+      },
+      "frameCount": 249,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-12",
+      "guid": "127:2907",
+      "name": "Inline CTAs",
+      "originalName": "      ↳ Inline CTAs",
+      "nodeCount": 204,
+      "components": 14,
+      "instances": 43,
+      "representatives": [
+        "Card",
+        "Header",
+        "Body",
+        "Inline CTA",
+        "Actions",
+        "Contents",
+        "Image wrap",
+        "Image",
+        "Email capture"
+      ],
+      "variants": {
+        "Type": [
+          "Actions",
+          "Change plan",
+          "Email field",
+          "Image",
+          "Payment method",
+          "Receipt",
+          "Upgrade plan"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 88,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-13",
+      "guid": "134:3146",
+      "name": "Log in and sign up pages",
+      "originalName": "      ↳ Log in and sign up pages",
+      "nodeCount": 1904,
+      "components": 90,
+      "instances": 725,
+      "representatives": [
+        "Header",
+        "Form",
+        "Actions",
+        "Header navigation",
+        "Header and form",
+        "Footer",
+        "Card",
+        "Mockup",
+        "Footer links",
+        "Quote attribution",
+        "Log in",
+        "Forgot password"
+      ],
+      "variants": {
+        "Type": [
+          "Card combined",
+          "Card separated",
+          "Sidebar progress 01",
+          "Sidebar progress 02",
+          "Simple",
+          "Simple header navigation",
+          "Simple illustration",
+          "Simple minimal"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 765,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-14",
+      "guid": "172:4293",
+      "name": "Modals",
+      "originalName": "      ↳ Modals ✨",
+      "nodeCount": 1838,
+      "components": 102,
+      "instances": 593,
+      "representatives": [
+        "Desktop",
+        "Mobile",
+        "_Modal header",
+        "_Modal actions",
+        "Actions",
+        "Modal",
+        "Checkboxes",
+        "Link",
+        "Input and badges",
+        "Fields",
+        "Users",
+        "Avatar group"
+      ],
+      "variants": {
+        "Type": [
+          "Access request",
+          "Center aligned",
+          "Centered photo",
+          "Centered photo carousel",
+          "Centered video carousel",
+          "Checkboxes",
+          "Destructive horizontal",
+          "Destructive stacked left aligned"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 774,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-15",
+      "guid": "176:4256",
+      "name": "Alerts & notifications",
+      "originalName": "      ↳ Alerts & notifications",
+      "nodeCount": 501,
+      "components": 42,
+      "instances": 164,
+      "representatives": [
+        "Alert",
+        "Notification",
+        "Image wrap",
+        "Image",
+        "Actions"
+      ],
+      "variants": {
+        "Color": [
+          "Brand",
+          "Default",
+          "Error",
+          "Gray",
+          "Success",
+          "Warning"
+        ],
+        "Size": [
+          "Floating",
+          "Full-width"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Type": [
+          "Avatar",
+          "Error icon",
+          "Gray icon",
+          "Image",
+          "No icon",
+          "Primary icon",
+          "Progress indicator",
+          "Success icon"
+        ]
+      },
+      "frameCount": 208,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-16",
+      "guid": "185:279",
+      "name": "Metrics",
+      "originalName": "      ↳ Metrics ✨",
+      "nodeCount": 631,
+      "components": 66,
+      "instances": 144,
+      "representatives": [
+        "Metric item",
+        "Heading and number",
+        "Number and badge",
+        "Heading and icon",
+        "Action",
+        "Number and chart",
+        "_Chart mini",
+        "_Change",
+        "Mask",
+        "Background",
+        "Line 01 mask",
+        "Heading and content"
+      ],
+      "variants": {
+        "Type": [
+          "01",
+          "02",
+          "Chart 01",
+          "Chart 02",
+          "Chart 03",
+          "Chart 04",
+          "Icon 01",
+          "Icon 02"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 274,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-17",
+      "guid": "185:2718",
+      "name": "Page headers",
+      "originalName": "      ↳ Page headers",
+      "nodeCount": 196,
+      "components": 12,
+      "instances": 79,
+      "representatives": [
+        "Page header",
+        "Avatar",
+        "Image wrap",
+        "Image",
+        "Heading",
+        "Image and header",
+        "Avatar and content"
+      ],
+      "variants": {
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 68,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-18",
+      "guid": "190:4871",
+      "name": "Section headers",
+      "originalName": "      ↳ Section headers",
+      "nodeCount": 150,
+      "components": 16,
+      "instances": 47,
+      "representatives": [
+        "Section header",
+        "Section label",
+        "Tabs=False, Type=Buttons, Breakpoint=Desktop",
+        "Tabs=False, Type=Buttons, Breakpoint=Mobile",
+        "Tabs=True, Type=Buttons, Breakpoint=Mobile",
+        "Tabs=True, Type=Buttons, Breakpoint=Desktop",
+        "Tabs=False, Type=Search, Breakpoint=Mobile",
+        "Tabs=False, Type=Search, Breakpoint=Desktop",
+        "Tabs=True, Type=Search, Breakpoint=Mobile",
+        "Tabs=True, Type=Search, Breakpoint=Desktop",
+        "Tabs=True, Type=Button group, Breakpoint=Mobile",
+        "Tabs=False, Type=Button group, Breakpoint=Mobile"
+      ],
+      "variants": {
+        "Type": [
+          "Button group",
+          "Buttons",
+          "Search"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Size": [
+          "md",
+          "sm"
+        ]
+      },
+      "frameCount": 38,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-19",
+      "guid": "214:0",
+      "name": "Tables",
+      "originalName": "      ↳ Tables ✨",
+      "nodeCount": 1373,
+      "components": 148,
+      "instances": 918,
+      "representatives": [
+        "Table header",
+        "Table header cell",
+        "Table cell",
+        "Table",
+        "Notes and documentation (you can delete this)",
+        "Filters bar",
+        "Actions",
+        "Rich text",
+        "Image wrap",
+        "Image and links",
+        "Resource links",
+        "Table visual hierarchy"
+      ],
+      "variants": {
+        "Color": [
+          "Gray",
+          "White"
+        ],
+        "State": [
+          "Default",
+          "Hover",
+          "Hover/selected"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 165,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-20",
+      "guid": "223:8525",
+      "name": "Card headers",
+      "originalName": "      ↳ Card headers",
+      "nodeCount": 63,
+      "components": 4,
+      "instances": 27,
+      "representatives": [
+        "Card header",
+        "Avatar and text",
+        "Avatar=False, Breakpoint=Desktop",
+        "Avatar=False, Breakpoint=Mobile",
+        "Avatar=True, Breakpoint=Desktop",
+        "Avatar=True, Breakpoint=Mobile"
+      ],
+      "variants": {
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 19,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-22",
+      "guid": "231:922",
+      "name": "Slideout menus",
+      "originalName": "      ↳ Slideout menus ✨",
+      "nodeCount": 1127,
+      "components": 38,
+      "instances": 431,
+      "representatives": [
+        "Panel",
+        "Checkboxes",
+        "Footer",
+        "_Slide out menu header",
+        "Slide out menu",
+        "Team members",
+        "Header",
+        "Image wrap",
+        "Image",
+        "Radio options",
+        "Checkbox group",
+        "Card mockup"
+      ],
+      "variants": {
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Type": [
+          "Calendar event",
+          "File upload",
+          "Filters",
+          "Labels",
+          "Message chat",
+          "Messages",
+          "Notification settings button groups",
+          "Notification settings checkboxes"
+        ]
+      },
+      "frameCount": 479,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-23",
+      "guid": "253:14231",
+      "name": "Activity feeds",
+      "originalName": "      ↳ Activity feeds",
+      "nodeCount": 351,
+      "components": 22,
+      "instances": 158,
+      "representatives": [
+        "_Feed item base",
+        "Activity feed",
+        "Message bubble"
+      ],
+      "variants": {
+        "Size": [
+          "md",
+          "sm"
+        ],
+        "Type": [
+          "Messages",
+          "Notifications"
+        ]
+      },
+      "frameCount": 74,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-43",
+      "guid": "1050:146949",
+      "name": "Charts",
+      "originalName": "      ↳ Charts ✨",
+      "nodeCount": 1316,
+      "components": 165,
+      "instances": 273,
+      "representatives": [
+        "Axis",
+        "_X-axis",
+        "_Chart data",
+        "Series 1",
+        "Series 2",
+        "Series 3",
+        "Line and bar chart",
+        "_Y-axis line",
+        "_Legend",
+        "Chart",
+        "_Y-axis",
+        "Ring inner"
+      ],
+      "variants": {
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Size": [
+          "lg",
+          "md",
+          "sm",
+          "xs",
+          "xxs"
+        ],
+        "Type": [
+          "Dash",
+          "Line",
+          "Minimal"
+        ]
+      },
+      "frameCount": 256,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-54",
+      "guid": "1172:31",
+      "name": "Empty states",
+      "originalName": "      ↳ Empty states",
+      "nodeCount": 484,
+      "components": 33,
+      "instances": 74,
+      "representatives": [
+        "Empty state",
+        "Illustration",
+        "Card",
+        "Cloud",
+        "Paper",
+        "Box",
+        "Notes and documentation (you can delete this)",
+        "Actions",
+        "Rich text",
+        "Image wrap",
+        "Icon wrap",
+        "Bad empty state"
+      ],
+      "variants": {
+        "Icon": [
+          "Featured icon",
+          "File type icon",
+          "Illustration"
+        ],
+        "Size": [
+          "lg",
+          "md",
+          "sm"
+        ],
+        "Color": [
+          "Gray",
+          "Primary"
+        ]
+      },
+      "frameCount": 98,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-56",
+      "guid": "1176:99947",
+      "name": "404 pages",
+      "originalName": "      ↳ 404 pages",
+      "nodeCount": 494,
+      "components": 28,
+      "instances": 117,
+      "representatives": [
+        "Heading and supporting text",
+        "Heading and subheading",
+        "Image",
+        "Actions",
+        "Heading and badge",
+        "Heading and icon",
+        "Button and supporting text",
+        "Resources",
+        "Search input",
+        "404 illustration",
+        "Link"
+      ],
+      "variants": {
+        "Type": [
+          "Illustration",
+          "Screen mockup",
+          "Simple 01",
+          "Simple 02",
+          "Simple 03",
+          "Simple 04",
+          "Simple 05",
+          "Simple 06"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 203,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-57",
+      "guid": "1221:106300",
+      "name": "Code snippets",
+      "originalName": "      ↳ Code snippets",
+      "nodeCount": 13,
+      "components": 2,
+      "instances": 1,
+      "representatives": [
+        "Code snippet",
+        "Breakpoint=Mobile",
+        "Breakpoint=Desktop"
+      ],
+      "variants": {
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 5,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-58",
+      "guid": "1226:360",
+      "name": "Email templates",
+      "originalName": "      ↳ Email templates",
+      "nodeCount": 221,
+      "components": 22,
+      "instances": 72,
+      "representatives": [
+        "Body",
+        "Text and actions",
+        "_Email template footer",
+        "_Email template header",
+        "Heading and body",
+        "Actions",
+        "Image",
+        "Link and text",
+        "Email template"
+      ],
+      "variants": {
+        "Type": [
+          "Center aligned",
+          "Center aligned divider",
+          "Image welcome",
+          "Left aligned",
+          "Mockup 01",
+          "Mockup 02",
+          "Simple invite",
+          "Simple verification"
+        ]
+      },
+      "frameCount": 60,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-59",
+      "guid": "1251:12271",
+      "name": "Messaging",
+      "originalName": "      ↳ Messaging",
+      "nodeCount": 115,
+      "components": 11,
+      "instances": 23,
+      "representatives": [
+        "Input",
+        "Message",
+        "_Message reaction"
+      ],
+      "variants": {
+        "Type": [
+          "Received attachment",
+          "Received message",
+          "Sent attachment",
+          "Sent message",
+          "Writing"
+        ]
+      },
+      "frameCount": 47,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-69",
+      "guid": "1623:261468",
+      "name": "404 pages",
+      "originalName": "      ❖ 404 pages",
+      "nodeCount": 235,
+      "components": 0,
+      "instances": 194,
+      "representatives": [
+        "Desktop",
+        "Mobile"
+      ],
+      "variants": {},
+      "frameCount": 40,
+      "group": "Application UI"
+    },
+    {
+      "id": "pg-24",
+      "guid": "278:13503",
+      "name": "Footers",
+      "originalName": "      ↳ Footers",
+      "nodeCount": 1717,
+      "components": 95,
+      "instances": 720,
+      "representatives": [
+        "App store actions",
+        "Actions",
+        "Logo and supporting text",
+        "Links",
+        "Links and Newsletter",
+        "Logo and links",
+        "Heading and supporting text",
+        "_Footer link",
+        "_Footer links column",
+        "Footer links",
+        "Email capture",
+        "Newsletter"
+      ],
+      "variants": {
+        "Type": [
+          "Large 01",
+          "Large 02",
+          "Large 03",
+          "Large 04",
+          "Large 05",
+          "Large 06",
+          "Large 07",
+          "Large 08"
+        ],
+        "Theme": [
+          "Brand",
+          "Dark",
+          "Default",
+          "Light"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Color": [
+          "Brand",
+          "Default"
+        ],
+        "State": [
+          "Default",
+          "Hover"
+        ]
+      },
+      "frameCount": 658,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-25",
+      "guid": "282:168",
+      "name": "FAQ sections",
+      "originalName": "      ↳ FAQ sections",
+      "nodeCount": 763,
+      "components": 48,
+      "instances": 242,
+      "representatives": [
+        "Heading and supporting text",
+        "_FAQ item",
+        "Heading and subheading",
+        "Image",
+        "FAQ accordian item wrap",
+        "Avatar group",
+        "Actions"
+      ],
+      "variants": {
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Type": [
+          "Accordion 01",
+          "Accordion 02",
+          "Accordion 03",
+          "Accordion 04",
+          "Simple 01",
+          "Simple 02",
+          "Simple 03",
+          "Simple 04"
+        ],
+        "Theme": [
+          "Brand",
+          "Default"
+        ]
+      },
+      "frameCount": 340,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-26",
+      "guid": "286:15521",
+      "name": "Social proof sections",
+      "originalName": "      ↳ Social proof sections ✨",
+      "nodeCount": 329,
+      "components": 24,
+      "instances": 170,
+      "representatives": [
+        "Logos",
+        "Social proof section",
+        "Press mentions section",
+        "Gradient mask",
+        "Logo frame",
+        "Logos row"
+      ],
+      "variants": {
+        "Type": [
+          "Card",
+          "Cards",
+          "Full width",
+          "Full width dual",
+          "Full width masked"
+        ],
+        "Theme": [
+          "Brand",
+          "Default"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 98,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-27",
+      "guid": "291:164",
+      "name": "Metrics sections",
+      "originalName": "      ↳ Metrics sections",
+      "nodeCount": 492,
+      "components": 42,
+      "instances": 152,
+      "representatives": [
+        "Number and text",
+        "_Metric item",
+        "Heading and supporting text",
+        "Heading and subheading",
+        "Image",
+        "Heading and icon",
+        "Actions",
+        "Metrics",
+        "Heading and badge"
+      ],
+      "variants": {
+        "Type": [
+          "Card brand dark",
+          "Card gray light",
+          "Card text and supporting text",
+          "Centered with supporting text",
+          "Image with cards 01",
+          "Image with cards 02",
+          "Left aligned with supporting text",
+          "Minimal centered text"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Theme": [
+          "Brand",
+          "Default"
+        ]
+      },
+      "frameCount": 203,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-28",
+      "guid": "641:15058",
+      "name": "Newsletter CTA sections",
+      "originalName": "      ↳ Newsletter CTA sections",
+      "nodeCount": 393,
+      "components": 32,
+      "instances": 98,
+      "representatives": [
+        "Heading and supporting text",
+        "Heading and check items",
+        "Check items",
+        "Text and actions",
+        "Email capture",
+        "Notification queue",
+        "Notification item",
+        "Image"
+      ],
+      "variants": {
+        "Type": [
+          "Card hortizontal",
+          "Card vertical",
+          "Screen mockup 01",
+          "Screen mockup 02",
+          "Screen mockup 03",
+          "Screen mockup 04",
+          "Simple centered",
+          "Simple left"
+        ],
+        "Theme": [
+          "Brand",
+          "Default"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 187,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-29",
+      "guid": "645:15070",
+      "name": "CTA sections",
+      "originalName": "      ↳ CTA sections",
+      "nodeCount": 807,
+      "components": 60,
+      "instances": 238,
+      "representatives": [
+        "Heading and supporting text",
+        "Image",
+        "Heading and check items",
+        "Check items",
+        "Logos wrap",
+        "Actions",
+        "Heading and subheading",
+        "Contents",
+        "Text and actions",
+        "Notification queue",
+        "Notification item"
+      ],
+      "variants": {
+        "Type": [
+          "Abstract images",
+          "Card hortizontal",
+          "Card vertical",
+          "Screen mockup 01",
+          "Screen mockup 02",
+          "Screen mockup 03",
+          "Screen mockup 04",
+          "Simple centered"
+        ],
+        "Theme": [
+          "Brand",
+          "Default"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 382,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-30",
+      "guid": "647:15097",
+      "name": "Content",
+      "originalName": "      ↳ Content",
+      "nodeCount": 1677,
+      "components": 100,
+      "instances": 749,
+      "representatives": [
+        "Header section",
+        "Heading and supporting text",
+        "Heading and subheading",
+        "Image",
+        "Heading and badge",
+        "Rich text",
+        "Sidebar",
+        "Heading and TOC",
+        "Contributors and social links",
+        "Heading and contributors",
+        "Contributors",
+        "Social links wrap"
+      ],
+      "variants": {
+        "Type": [
+          "Alternative 01",
+          "Alternative 02",
+          "Alternative 03",
+          "Heading",
+          "Large image 01",
+          "Large image 02",
+          "Large image 03",
+          "Large image 04"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Size": [
+          "2xl",
+          "lg",
+          "md",
+          "sm",
+          "xl"
+        ]
+      },
+      "frameCount": 614,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-31",
+      "guid": "648:16272",
+      "name": "Testimonial sections",
+      "originalName": "      ↳ Testimonial sections ✨",
+      "nodeCount": 2015,
+      "components": 104,
+      "instances": 622,
+      "representatives": [
+        "_Testiomonial carousel arrow",
+        "Avatar and text",
+        "Attribution",
+        "Quote and attribution",
+        "Image",
+        "Attribution and arrows",
+        "Arrows",
+        "Quote and stars",
+        "Contents",
+        "Heading and supporting text",
+        "Attribution card",
+        "Name and stars"
+      ],
+      "variants": {
+        "Size": [
+          "lg",
+          "md",
+          "sm"
+        ],
+        "Type": [
+          "Abstract image",
+          "Arrow",
+          "Button arrow",
+          "Button chevron",
+          "Card",
+          "Card split image",
+          "Case study cards",
+          "Floating"
+        ],
+        "State": [
+          "Default",
+          "Disabled",
+          "Hover"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Theme": [
+          "Brand",
+          "Default"
+        ]
+      },
+      "frameCount": 862,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-32",
+      "guid": "665:1107",
+      "name": "Blog sections",
+      "originalName": "      ↳ Blog sections",
+      "nodeCount": 1211,
+      "components": 84,
+      "instances": 483,
+      "representatives": [
+        "Blog post card",
+        "Heading and subheading",
+        "Heading and text",
+        "Image",
+        "Bottom panel",
+        "Attribution card",
+        "Text and email capture",
+        "Heading and supporting text",
+        "Email capture",
+        "Blog subscribe card",
+        "Tabs and sort",
+        "Action"
+      ],
+      "variants": {
+        "Type": [
+          "Alt layout 01",
+          "Alt layout 02",
+          "Alt layout 03",
+          "Alt layout 04",
+          "Card full-width image 01",
+          "Card full-width image 02",
+          "Card full-width image 03",
+          "Card full-width image 04"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 468,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-33",
+      "guid": "673:16258",
+      "name": "Team sections",
+      "originalName": "      ↳ Team sections",
+      "nodeCount": 746,
+      "components": 42,
+      "instances": 290,
+      "representatives": [
+        "Text and social links",
+        "Name and role",
+        "Name and supporting text",
+        "_Team member",
+        "Image",
+        "Bottom panel",
+        "Attribution card",
+        "Role and supporting text",
+        "Heading and supporting text",
+        "Heading and subheading",
+        "Actions",
+        "Team member wrap"
+      ],
+      "variants": {
+        "Type": [
+          "Image card 01",
+          "Image card 02",
+          "Image card 03",
+          "Image card 04",
+          "Image collage 01",
+          "Image glass 01",
+          "Image glass 02",
+          "Image glass 03"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 291,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-34",
+      "guid": "673:20368",
+      "name": "Contact sections",
+      "originalName": "      ↳ Contact sections ✨",
+      "nodeCount": 1374,
+      "components": 98,
+      "instances": 461,
+      "representatives": [
+        "Heading and supporting text",
+        "Image",
+        "_Contact text",
+        "Contents",
+        "Map wrap",
+        "_Map location marker",
+        "Tooltip",
+        "Heading and subheading",
+        "Heading and badge",
+        "Heading and contact details",
+        "Form",
+        "Form fields"
+      ],
+      "variants": {
+        "Type": [
+          "Center map",
+          "Featured icon box",
+          "Featured icon card",
+          "Featured icon left",
+          "Featured icon top centered",
+          "Featured icon top left",
+          "Icon cards 01",
+          "Icon cards 02"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "State": [
+          "Default",
+          "Hover"
+        ],
+        "Theme": [
+          "Brand",
+          "Default"
+        ]
+      },
+      "frameCount": 578,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-35",
+      "guid": "683:17952",
+      "name": "Header navigation",
+      "originalName": "      ↳ Header navigation ✨",
+      "nodeCount": 2911,
+      "components": 204,
+      "instances": 1530,
+      "representatives": [
+        "_Nav menu item",
+        "_Nav menu item card",
+        "Image wrap",
+        "Image",
+        "Header",
+        "Full-width header navigation",
+        "_Nav menu button",
+        "_Dropdown header navigation trigger",
+        "_Nav menu item dropdown",
+        "Footer",
+        "Dropdown header navigation",
+        "_Navigation actions"
+      ],
+      "variants": {
+        "Icon": [
+          "False",
+          "Featured",
+          "Small"
+        ],
+        "State": [
+          "Default",
+          "Focused",
+          "Hover"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Type": [
+          "2-col with links",
+          "2-col with links and footer",
+          "2-col with sidebar",
+          "3-col with sidebar",
+          "4-col slim with footer",
+          "4-col with footer",
+          "Blog posts with footer",
+          "Blog posts with sidebar"
+        ]
+      },
+      "frameCount": 1014,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-36",
+      "guid": "708:20673",
+      "name": "Pricing sections",
+      "originalName": "      ↳ Pricing sections",
+      "nodeCount": 1505,
+      "components": 88,
+      "instances": 685,
+      "representatives": [
+        "Header",
+        "Heading and price",
+        "Price",
+        "Check items",
+        "Actions",
+        "Heading and icon",
+        "Footer",
+        "Check items wrap",
+        "Heading and supporting text",
+        "Banner",
+        "Price and supporting text",
+        "_Pricing table cell header"
+      ],
+      "variants": {
+        "Type": [
+          "Abstract angles",
+          "Badge",
+          "Badge group",
+          "Banner",
+          "Call out",
+          "Column header",
+          "Dual action",
+          "Dual check items"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Icon": [
+          "Check",
+          "Minus",
+          "Text only"
+        ]
+      },
+      "frameCount": 520,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-37",
+      "guid": "736:22481",
+      "name": "Features sections",
+      "originalName": "      ↳ Features sections",
+      "nodeCount": 2071,
+      "components": 130,
+      "instances": 630,
+      "representatives": [
+        "Heading and supporting text",
+        "Check items",
+        "Icon and text",
+        "Actions",
+        "Mockup wrap",
+        "Heading and subheading",
+        "_Feature text",
+        "Image",
+        "Card",
+        "Heading and badge",
+        "Contents",
+        "Heading and icon"
+      ],
+      "variants": {
+        "Type": [
+          "Alternating layout 01",
+          "Alternating layout 02",
+          "Alternating layout 03",
+          "Alternating layout 04",
+          "Center mockup 01",
+          "Icon cards 01",
+          "Icon cards 02",
+          "Icons and image 01"
+        ],
+        "Theme": [
+          "Brand",
+          "Default"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Current": [
+          "False",
+          "True"
+        ]
+      },
+      "frameCount": 932,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-38",
+      "guid": "739:496",
+      "name": "Header sections",
+      "originalName": "      ↳ Header sections ✨",
+      "nodeCount": 2492,
+      "components": 148,
+      "instances": 724,
+      "representatives": [
+        "Heading and supporting text",
+        "Mockup",
+        "Card",
+        "Cards",
+        "Shadow",
+        "Email capture",
+        "Image",
+        "Actions",
+        "File queue",
+        "User reviews",
+        "Reviews",
+        "Background pattern"
+      ],
+      "variants": {
+        "Type": [
+          "Abstract angles 01",
+          "Abstract angles 02",
+          "Abstract angles 03",
+          "Abstract angles 04",
+          "Card mockup 02",
+          "Card mockup 04",
+          "Card mockup 08",
+          "Card mockup 09"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Color": [
+          "Brand",
+          "Default"
+        ]
+      },
+      "frameCount": 1055,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-39",
+      "guid": "780:0",
+      "name": "Content dividers",
+      "originalName": "      ↳ Content dividers",
+      "nodeCount": 51,
+      "components": 18,
+      "instances": 13,
+      "representatives": [
+        "Content divider",
+        "Type=Button, Style=Single line",
+        "Type=Button icon, Style=Single line",
+        "Type=Text, Style=Single line",
+        "Type=Heading, Style=Single line",
+        "Type=Button group icon, Style=Single line",
+        "Type=Button group, Style=Single line",
+        "Type=Heading, Style=Dual line",
+        "Type=Text, Style=Dual line",
+        "Type=Button, Style=Dual line",
+        "Type=Button group icon, Style=Dual line",
+        "Type=Button group, Style=Dual line"
+      ],
+      "variants": {
+        "Type": [
+          "Button",
+          "Button group",
+          "Button group icon",
+          "Button icon",
+          "Heading",
+          "Text"
+        ]
+      },
+      "frameCount": 1,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-60",
+      "guid": "1291:157819",
+      "name": "Miscellaneous assets",
+      "originalName": "      ↳ Miscellaneous assets ✨",
+      "nodeCount": 810,
+      "components": 134,
+      "instances": 26,
+      "representatives": [
+        "Text and badge",
+        "Video player",
+        "_Video progress",
+        "_Play button",
+        "Line pattern",
+        "Credit card mockup",
+        "Gradient",
+        "3:2 screen mockup",
+        "Hand-drawn line",
+        "Strip",
+        "–––– Section divider ––––",
+        "Mockup wrap"
+      ],
+      "variants": {
+        "Size": [
+          "2xl",
+          "lg",
+          "md",
+          "sm",
+          "xl",
+          "xs"
+        ],
+        "Theme": [
+          "Brand dark",
+          "Brand light",
+          "Dark",
+          "Gradient strip",
+          "Gradient strip vertical",
+          "Gray dark",
+          "Gray light",
+          "Gray strip"
+        ],
+        "State": [
+          "Default",
+          "Hover"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Type": [
+          "Minimal color",
+          "Minimal monotone",
+          "Safari"
+        ]
+      },
+      "frameCount": 107,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-61",
+      "guid": "1458:239246",
+      "name": "Careers section",
+      "originalName": "      ↳ Careers section",
+      "nodeCount": 521,
+      "components": 30,
+      "instances": 155,
+      "representatives": [
+        "Text and badge",
+        "Text and badge group",
+        "Text and button",
+        "Text and category",
+        "_Job post",
+        "Heading and supporting text",
+        "Heading and subheading",
+        "Image",
+        "Heading and badge",
+        "Items"
+      ],
+      "variants": {
+        "Type": [
+          "Card 01",
+          "Card 02",
+          "Card 03",
+          "Card 04",
+          "Simple",
+          "Simple 01",
+          "Simple 02",
+          "Simple 03"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ],
+        "Theme": [
+          "Brand",
+          "Default"
+        ]
+      },
+      "frameCount": 224,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-62",
+      "guid": "1622:261459",
+      "name": "Blogs",
+      "originalName": "      ❖ Blogs",
+      "nodeCount": 259,
+      "components": 0,
+      "instances": 218,
+      "representatives": [
+        "Desktop",
+        "Mobile"
+      ],
+      "variants": {},
+      "frameCount": 40,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-63",
+      "guid": "1622:261460",
+      "name": "Landing pages",
+      "originalName": "      ❖ Landing pages",
+      "nodeCount": 857,
+      "components": 0,
+      "instances": 776,
+      "representatives": [
+        "Desktop",
+        "Mobile"
+      ],
+      "variants": {},
+      "frameCount": 80,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-64",
+      "guid": "1622:261461",
+      "name": "Pricing pages",
+      "originalName": "      ❖ Pricing pages",
+      "nodeCount": 323,
+      "components": 0,
+      "instances": 282,
+      "representatives": [
+        "Desktop",
+        "Mobile"
+      ],
+      "variants": {},
+      "frameCount": 40,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-65",
+      "guid": "1622:261463",
+      "name": "About pages",
+      "originalName": "      ❖ About pages",
+      "nodeCount": 415,
+      "components": 0,
+      "instances": 374,
+      "representatives": [
+        "Desktop",
+        "Mobile"
+      ],
+      "variants": {},
+      "frameCount": 40,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-66",
+      "guid": "1622:261464",
+      "name": "Contact pages",
+      "originalName": "      ❖ Contact pages",
+      "nodeCount": 219,
+      "components": 0,
+      "instances": 178,
+      "representatives": [
+        "Desktop",
+        "Mobile"
+      ],
+      "variants": {},
+      "frameCount": 40,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-67",
+      "guid": "1622:261465",
+      "name": "FAQ pages",
+      "originalName": "      ❖ FAQ pages",
+      "nodeCount": 323,
+      "components": 0,
+      "instances": 282,
+      "representatives": [
+        "Desktop",
+        "Mobile"
+      ],
+      "variants": {},
+      "frameCount": 40,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-68",
+      "guid": "1622:261466",
+      "name": "Legal pages",
+      "originalName": "      ❖ Legal pages",
+      "nodeCount": 147,
+      "components": 0,
+      "instances": 126,
+      "representatives": [
+        "Desktop",
+        "Mobile"
+      ],
+      "variants": {},
+      "frameCount": 20,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-70",
+      "guid": "1623:261469",
+      "name": "Log in pages",
+      "originalName": "      ❖ Log in pages",
+      "nodeCount": 63,
+      "components": 0,
+      "instances": 34,
+      "representatives": [
+        "Desktop",
+        "Mobile"
+      ],
+      "variants": {},
+      "frameCount": 28,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-71",
+      "guid": "1624:424681",
+      "name": "Banners",
+      "originalName": "      ↳ Banners",
+      "nodeCount": 329,
+      "components": 32,
+      "instances": 89,
+      "representatives": [
+        "Actions",
+        "Banner",
+        "Email capture",
+        "Text wrap",
+        "Buttons"
+      ],
+      "variants": {
+        "Type": [
+          "Dual action",
+          "Single action",
+          "Slim",
+          "Text field"
+        ],
+        "Theme": [
+          "Brand",
+          "Default"
+        ],
+        "Size": [
+          "Floating",
+          "Full-width"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 143,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-72",
+      "guid": "1631:330597",
+      "name": "Blog posts",
+      "originalName": "      ❖ Blog posts",
+      "nodeCount": 307,
+      "components": 0,
+      "instances": 266,
+      "representatives": [
+        "Desktop",
+        "Mobile"
+      ],
+      "variants": {},
+      "frameCount": 40,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-73",
+      "guid": "1639:514589",
+      "name": "Team pages",
+      "originalName": "      ❖ Team pages",
+      "nodeCount": 411,
+      "components": 0,
+      "instances": 370,
+      "representatives": [
+        "Desktop",
+        "Mobile"
+      ],
+      "variants": {},
+      "frameCount": 40,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-74",
+      "guid": "1664:398802",
+      "name": "Settings pages 01",
+      "originalName": "      ❖ Settings pages 01 ✨",
+      "nodeCount": 4857,
+      "components": 5,
+      "instances": 2210,
+      "representatives": [
+        "Desktop",
+        "Main",
+        "Form",
+        "Input fields",
+        "Avatar and file upload",
+        "Avatar and actions",
+        "Input field and checkbox",
+        "Header section",
+        "Input and dropdown",
+        "Table",
+        "Teams",
+        "Radio buttons"
+      ],
+      "variants": {},
+      "frameCount": 1997,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-75",
+      "guid": "1686:419019",
+      "name": "Dashboards 01",
+      "originalName": "      ❖ Dashboards 01 ✨",
+      "nodeCount": 4948,
+      "components": 7,
+      "instances": 2976,
+      "representatives": [
+        "Desktop",
+        "Main",
+        "Table",
+        "Mobile",
+        "Main wrap",
+        "Card",
+        "Filters bar",
+        "Header section",
+        "Sidebar",
+        "Tabs and filters",
+        "Activity feed",
+        "Page header"
+      ],
+      "variants": {},
+      "frameCount": 1757,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-76",
+      "guid": "1686:419020",
+      "name": "Informational pages 01",
+      "originalName": "      ❖ Informational pages 01 ✨",
+      "nodeCount": 3313,
+      "components": 5,
+      "instances": 1900,
+      "representatives": [
+        "Desktop",
+        "Main",
+        "Table",
+        "Header section",
+        "Filters bar",
+        "Filters",
+        "Side panel",
+        "Search wrap",
+        "Message input",
+        "Message input wrap",
+        "Sidebar",
+        "Images"
+      ],
+      "variants": {},
+      "frameCount": 1229,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-77",
+      "guid": "3275:371793",
+      "name": "Section footers",
+      "originalName": "      ↳ Section footers",
+      "nodeCount": 71,
+      "components": 8,
+      "instances": 37,
+      "representatives": [
+        "Section footer",
+        "Type=Card, Button group=True, Breakpoint=Desktop",
+        "Type=Section, Button group=True, Breakpoint=Desktop",
+        "Type=Card, Button group=True, Breakpoint=Mobile",
+        "Type=Section, Button group=True, Breakpoint=Mobile",
+        "Type=Card, Button group=False, Breakpoint=Desktop",
+        "Type=Card, Button group=False, Breakpoint=Mobile",
+        "Type=Section, Button group=False, Breakpoint=Desktop",
+        "Type=Section, Button group=False, Breakpoint=Mobile"
+      ],
+      "variants": {
+        "Type": [
+          "Card",
+          "Section"
+        ],
+        "Breakpoint": [
+          "Desktop",
+          "Mobile"
+        ]
+      },
+      "frameCount": 17,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-83",
+      "guid": "6201:298081",
+      "name": "Sign up pages",
+      "originalName": "      ❖ Sign up pages",
+      "nodeCount": 63,
+      "components": 0,
+      "instances": 34,
+      "representatives": [
+        "Desktop",
+        "Mobile"
+      ],
+      "variants": {},
+      "frameCount": 28,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-84",
+      "guid": "6277:262842",
+      "name": "Dashboards 02",
+      "originalName": "      ❖ Dashboards 02 ✨",
+      "nodeCount": 4689,
+      "components": 0,
+      "instances": 2808,
+      "representatives": [
+        "Mobile",
+        "Main",
+        "Message input",
+        "Actions",
+        "Desktop",
+        "Header section",
+        "Table",
+        "Metric group",
+        "Card",
+        "Sidebar",
+        "Countries",
+        "Sections"
+      ],
+      "variants": {},
+      "frameCount": 1692,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-85",
+      "guid": "6277:291692",
+      "name": "Settings pages 02",
+      "originalName": "      ❖ Settings pages 02 ✨",
+      "nodeCount": 5033,
+      "components": 0,
+      "instances": 2258,
+      "representatives": [
+        "Mobile",
+        "Main",
+        "Header section",
+        "Desktop",
+        "Integrations",
+        "Radio buttons",
+        "Rows",
+        "Form",
+        "Checkbox group and actions",
+        "Table",
+        "Radio button group and input field",
+        "Input field wrap"
+      ],
+      "variants": {},
+      "frameCount": 2054,
+      "group": "Marketing & examples"
+    },
+    {
+      "id": "pg-86",
+      "guid": "6277:315325",
+      "name": "Informational pages 02",
+      "originalName": "      ❖ Informational pages 02 ✨",
+      "nodeCount": 3125,
+      "components": 0,
+      "instances": 1778,
+      "representatives": [
+        "Mobile",
+        "Main",
+        "Details",
+        "Label and text",
+        "Header and about",
+        "About",
+        "Text and paragraph",
+        "Experience",
+        "Projects",
+        "Image",
+        "Desktop",
+        "Paragraph and button"
+      ],
+      "variants": {},
+      "frameCount": 1178,
+      "group": "Marketing & examples"
+    }
+  ]
+}

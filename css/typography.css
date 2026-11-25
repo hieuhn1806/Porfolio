@@ -1,0 +1,185 @@
+/**
+ * Typography System — Senior Product Designer Portfolio V5
+ * Strict Inter typography with fluid clamps, 16px body, and refined editorial hierarchy
+ */
+
+html,
+body,
+input,
+button,
+select,
+textarea {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  font-size: 16px;
+  line-height: 1.68;
+  color: var(--ink);
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(ellipse 560px 485px at 8% 18%, rgba(190, 200, 172, 0.45), transparent 75%),
+    radial-gradient(ellipse 560px 485px at 92% 32%, rgba(216, 198, 246, 0.42), transparent 75%),
+    radial-gradient(ellipse 520px 440px at 88% 82%, rgba(205, 214, 192, 0.28), transparent 80%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html[data-theme="dark"] body {
+  background-image:
+    radial-gradient(ellipse 580px 480px at 8% 18%, rgba(166, 214, 56, 0.12), transparent 78%),
+    radial-gradient(ellipse 580px 480px at 92% 32%, rgba(108, 68, 196, 0.14), transparent 78%);
+}
+
+/* Headings */
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Inter', system-ui, sans-serif;
+  line-height: 1.2;
+  color: var(--ink);
+}
+
+/* Hero Title & Slogan: Responsive Editorial Sizing */
+.hero h1 {
+  font-size: clamp(38px, 4vw, 54px);
+  letter-spacing: -0.03em;
+  font-weight: 800;
+  line-height: 1.22;
+  margin: 14px 0 22px;
+  max-width: 840px;
+}
+
+.hero h1 span {
+  font-family: 'Newsreader', 'Playfair Display', 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: clamp(28px, 3.5vw, 50px);
+  letter-spacing: -0.01em;
+  color: var(--purple);
+  display: inline-block;
+  white-space: nowrap;
+  padding-top: 4px;
+}
+
+.hero-description {
+  max-width: 610px;
+  font-size: 16px;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+/* Page Titles: 48–64px */
+.page-title {
+  font-size: clamp(42px, 5.2vw, 64px);
+  letter-spacing: -0.035em;
+  font-weight: 800;
+  line-height: 1.1;
+  margin: 16px 0 16px;
+}
+
+.page-subtitle {
+  color: var(--muted);
+  font-size: 16px;
+  max-width: 100%;
+  line-height: 1.75;
+}
+
+/* Section Titles: 32–44px */
+.section-title {
+  font-size: clamp(32px, 3.6vw, 44px);
+  letter-spacing: -0.03em;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 12px 0 12px;
+}
+
+.section-description {
+  color: var(--muted);
+  max-width: 100%;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+@media (min-width: 960px) {
+
+  .page-subtitle,
+  .section-description {
+    white-space: nowrap;
+  }
+}
+
+/* Card Titles: 22–28px */
+.project-heading {
+  font-size: clamp(22px, 2.2vw, 28px);
+  letter-spacing: -0.025em;
+  font-weight: 800;
+  max-width: 520px;
+  line-height: 1.3;
+}
+
+.exp-role {
+  font-size: clamp(20px, 2.1vw, 26px);
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  margin: 0 0 12px;
+  line-height: 1.34;
+}
+
+/* Eyebrows & Labels */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.eyebrow .num {
+  font-size: 12px;
+  color: var(--purple);
+  white-space: nowrap;
+}
+
+/* Selection Color */
+::selection {
+  background: #CBDCC4;
+  color: #111310;
+}
+
+html[data-theme="dark"] ::selection {
+  background: rgba(196, 240, 66, 0.28);
+  color: #F3F4F1;
+}
+
+/* Text Utilities */
+.text-accent {
+  color: var(--purple);
+}
+
+.subtext {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.exp-description strong,
+.detail-list li strong,
+.exp-details-list li strong {
+  font-weight: 700;
+  color: var(--ink);
+}

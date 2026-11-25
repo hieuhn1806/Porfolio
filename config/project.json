@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "project_name": null,
+  "product_language": "vi",
+  "communication_language": "vi",
+  "review_mode": "staging_auto",
+  "figma_mode": "optional",
+  "stack": {
+    "frontend": "Next.js + TypeScript",
+    "styling": "Tailwind CSS + shadcn/ui (Radix)",
+    "database": "Supabase PostgreSQL",
+    "orm": "Drizzle (only if useful; do not also install Prisma)",
+    "auth": "Supabase Auth",
+    "storage": "Supabase Storage",
+    "package_manager": "npm",
+    "hosting": "Vercel",
+    "e2e": "Playwright",
+    "unit": "Vitest"
+  },
+  "environments": {
+    "local": {
+      "url": "http://localhost:3000"
+    },
+    "staging": {
+      "url": null,
+      "database_project_ref": null
+    },
+    "production": {
+      "url": null,
+      "database_project_ref": null
+    }
+  },
+  "repository_url": null,
+  "figma_file_url": null,
+  "vercel_project_id": null,
+  "vercel_team_id": null,
+  "new_paid_resources_budget_usd": 0,
+  "production_requires_explicit_approval": true,
+  "protected_branch": "main",
+  "production_environment": "production",
+  "telemetry": {
+    "posthog": "disabled_until_requested",
+    "sentry": "disabled_until_requested"
+  },
+  "notes": "Custom kit configuration read by the agent; not native Antigravity SDK or settings."
+}

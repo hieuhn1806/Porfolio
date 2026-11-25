@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "task_id": "portfolio-v4-modularization",
+  "commit_sha": null,
+  "staging_url": null,
+  "staging_deployment_id": null,
+  "production_target": {
+    "provider": null,
+    "project_id": null,
+    "environment": "production"
+  },
+  "checks": {
+    "requirements": {
+      "status": "BLOCKED",
+      "reason": "Not yet executed",
+      "tested_commit": null,
+      "evidence": []
+    },
+    "ux_ui": {
+      "status": "BLOCKED",
+      "reason": "Not yet executed",
+      "tested_commit": null,
+      "evidence": []
+    },
+    "lint": {
+      "status": "BLOCKED",
+      "reason": "Not yet executed",
+      "tested_commit": null,
+      "evidence": []
+    },
+    "typecheck": {
+      "status": "BLOCKED",
+      "reason": "Not yet executed",
+      "tested_commit": null,
+      "evidence": []
+    },
+    "unit": {
+      "status": "BLOCKED",
+      "reason": "Not yet executed",
+      "tested_commit": null,
+      "evidence": []
+    },
+    "build": {
+      "status": "BLOCKED",
+      "reason": "Not yet executed",
+      "tested_commit": null,
+      "evidence": []
+    },
+    "api": {
+      "status": "BLOCKED",
+      "reason": "Not yet executed",
+      "tested_commit": null,
+      "evidence": []
+    },
+    "authorization": {
+      "status": "BLOCKED",
+      "reason": "Not yet executed",
+      "tested_commit": null,
+      "evidence": []
+    },
+    "persistence": {
+      "status": "BLOCKED",
+      "reason": "Not yet executed",
+      "tested_commit": null,
+      "evidence": []
+    },
+    "database": {
+      "status": "BLOCKED",
+      "reason": "Not yet executed",
+      "tested_commit": null,
+      "evidence": []
+    },
+    "browser": {
+      "status": "BLOCKED",
+      "reason": "Not yet executed",
+      "tested_commit": null,
+      "evidence": []
+    },
+    "responsive": {
+      "status": "BLOCKED",
+      "reason": "Not yet executed",
+      "tested_commit": null,
+      "evidence": []
+    },
+    "accessibility": {
+      "status": "BLOCKED",
+      "reason": "Not yet executed",
+      "tested_commit": null,
+      "evidence": []
+    },
+    "staging_smoke": {
+      "status": "BLOCKED",
+      "reason": "Not yet executed",
+      "tested_commit": null,
+      "evidence": []
+    }
+  },
+  "migrations": [],
+  "rollback": {
+    "plan_path": null,
+    "sha256": null,
+    "compatibility_verified": false
+  },
+  "backup": {
+    "required": false,
+    "verified": false,
+    "evidence": []
+  },
+  "technical_gate": {
+    "configured": false,
+    "description": null,
+    "evidence": []
+  },
+  "open_blockers": [],
+  "notes": "Custom dossier only. PASS and evidence are not human approval. Agent must never self-approve."
+}

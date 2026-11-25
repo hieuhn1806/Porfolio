@@ -1,0 +1,58 @@
+{
+  "task_id": "{{TASK_ID}}",
+  "created_at": "{{CREATED_AT}}",
+  "updated_at": "{{CREATED_AT}}",
+  "review_mode": "staging_auto",
+  "current_stage": "setup",
+  "stages": {
+    "setup": {
+      "status": "not_started",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "requirements": {
+      "status": "not_started",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "ux": {
+      "status": "not_started",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "ui": {
+      "status": "not_started",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "database_api": {
+      "status": "not_started",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "implementation": {
+      "status": "not_started",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "qa": {
+      "status": "not_started",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "staging": {
+      "status": "not_started",
+      "artifact_paths": [],
+      "evidence_paths": []
+    },
+    "production": {
+      "status": "not_started",
+      "artifact_paths": [],
+      "evidence_paths": []
+    }
+  },
+  "assumptions": [],
+  "blockers": [],
+  "approved_release": null,
+  "next_action": "Read brief and inspect actual runtime/connectors. Production is not approved."
+}

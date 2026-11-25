@@ -1,0 +1,7 @@
+Build [tên sản phẩm] cho [người dùng] giải quyết [vấn đề].
+Tính năng bắt buộc: [danh sách]. Ngoài scope: [danh sách].
+Tham khảo/design system: [file hoặc link nếu có].
+Đọc AGENTS.md và chạy playbooks/build-product.md. Mặc định staging_auto.
+Tự làm requirements, user flow, UI, DB/API, auth/role, code, demo seed và QA.
+Giữ business rule theo brief; chỉ hỏi nếu có blocker quan trọng. Đưa staging thực tế và release packet.
+Không tạo chi phí mới hoặc deploy production khi chưa có duyệt cho đúng release.
